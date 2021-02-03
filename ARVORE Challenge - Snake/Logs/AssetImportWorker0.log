@@ -1,0 +1,2113 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.0b4 (6d90c0720bd4) revision 7180480'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 7  (6.1.0) 64bit' Language: 'pt' Physical Memory: 6018 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.1.0b4\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Murilo/Unity/ARVORE Challenge - Snake
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59174
+Successfully changed project path to: C:/Users/Murilo/Unity/ARVORE Challenge - Snake
+C:/Users/Murilo/Unity/ARVORE Challenge - Snake
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 67.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.0b4 (6d90c0720bd4)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.0b4/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Murilo/Unity/ARVORE Challenge - Snake/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+d3d11: CreateDXGIFactory2(...) not found, fallbacking to CreateDXGIFactory1(...).
+d3d11: QueryInterface(IDXGIFactory5) failed (80004002).
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics (ID=0x152)
+    Vendor:   Intel
+    VRAM:     1632 MB
+    Driver:   10.18.10.4276
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.0b4/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.0b4/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56344
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.0b4/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001865 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 51.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 20.416 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.013655 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.316 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.72 seconds
+Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1616 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 203.3 MB.
+System memory in use after: 203.4 MB.
+
+Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 2047.
+Total: 12.394060 ms (FindLiveObjects: 0.225713 ms CreateObjectMapping: 0.164888 ms MarkObjects: 11.912221 ms  DeleteObjects: 0.087940 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/Enities/Pickable.cs
+  artifactKey: Guid(fa148414780db0a4fa3ba9597babee33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enities/Pickable.cs using Guid(fa148414780db0a4fa3ba9597babee33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '441cf7e4e3b78bbc99b625c440b4cb2c') in 1.546285 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.739420 seconds.
+  path: Assets/Scripts/Enities/Pickable.cs
+  artifactKey: Guid(fa148414780db0a4fa3ba9597babee33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enities/Pickable.cs using Guid(fa148414780db0a4fa3ba9597babee33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f072c49d81ea829022f16eeca409167d') in 0.005532 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003923 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.267 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1610 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 203.2 MB.
+System memory in use after: 203.3 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2049.
+Total: 18.085617 ms (FindLiveObjects: 0.174415 ms CreateObjectMapping: 0.080612 ms MarkObjects: 17.796514 ms  DeleteObjects: 0.031878 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003948 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.259 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 12.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1610 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 203.3 MB.
+System memory in use after: 203.4 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2051.
+Total: 31.293856 ms (FindLiveObjects: 0.351028 ms CreateObjectMapping: 0.083910 ms MarkObjects: 30.823010 ms  DeleteObjects: 0.033344 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003966 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.289 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1610 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 203.3 MB.
+System memory in use after: 203.4 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2053.
+Total: 14.638365 ms (FindLiveObjects: 0.189438 ms CreateObjectMapping: 0.084276 ms MarkObjects: 14.322879 ms  DeleteObjects: 0.039939 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 649.125293 seconds.
+  path: Assets/Scripts/Enities/BatteringRamFood.cs
+  artifactKey: Guid(bb53b67a6e0a62246aec3cdb649d297a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enities/BatteringRamFood.cs using Guid(bb53b67a6e0a62246aec3cdb649d297a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c276ca12f4006d680b5b98f25dd899fd') in 0.014407 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004169 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.313 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 203.3 MB.
+System memory in use after: 203.4 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2056.
+Total: 45.810203 ms (FindLiveObjects: 0.167453 ms CreateObjectMapping: 0.077314 ms MarkObjects: 45.525497 ms  DeleteObjects: 0.038107 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 152.861088 seconds.
+  path: Assets/Resources/Prefabs/BatteringRamFood.prefab
+  artifactKey: Guid(49aea0cfa69fc724abad2881c41c653d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BatteringRamFood.prefab using Guid(49aea0cfa69fc724abad2881c41c653d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fd2d5317c10d4a597fa678aa76c4605') in 0.406056 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004001 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.316 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.1 MB.
+System memory in use after: 207.2 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 2066.
+Total: 10.185297 ms (FindLiveObjects: 0.233041 ms CreateObjectMapping: 0.164888 ms MarkObjects: 9.735703 ms  DeleteObjects: 0.048367 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003898 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.265 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.1 MB.
+System memory in use after: 207.2 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2068.
+Total: 20.822020 ms (FindLiveObjects: 0.235973 ms CreateObjectMapping: 0.155727 ms MarkObjects: 20.387449 ms  DeleteObjects: 0.039573 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004186 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.253 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.1 MB.
+System memory in use after: 207.2 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2070.
+Total: 7.855983 ms (FindLiveObjects: 0.390967 ms CreateObjectMapping: 0.155361 ms MarkObjects: 7.280709 ms  DeleteObjects: 0.026748 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004145 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.329 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.1 MB.
+System memory in use after: 207.2 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2072.
+Total: 25.054505 ms (FindLiveObjects: 0.229011 ms CreateObjectMapping: 0.168185 ms MarkObjects: 24.610407 ms  DeleteObjects: 0.043970 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004052 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.273 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.73 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.1 MB.
+System memory in use after: 207.2 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2074.
+Total: 26.617274 ms (FindLiveObjects: 0.235240 ms CreateObjectMapping: 0.163422 ms MarkObjects: 26.184169 ms  DeleteObjects: 0.031512 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004040 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.267 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.1 MB.
+System memory in use after: 207.2 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2076.
+Total: 7.716378 ms (FindLiveObjects: 0.168918 ms CreateObjectMapping: 0.081711 ms MarkObjects: 7.431306 ms  DeleteObjects: 0.031878 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004214 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.287 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.1 MB.
+System memory in use after: 207.2 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2078.
+Total: 7.467215 ms (FindLiveObjects: 0.184308 ms CreateObjectMapping: 0.079146 ms MarkObjects: 7.168218 ms  DeleteObjects: 0.033344 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003953 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.289 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.1 MB.
+System memory in use after: 207.2 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2080.
+Total: 28.280075 ms (FindLiveObjects: 0.182476 ms CreateObjectMapping: 0.083910 ms MarkObjects: 27.977048 ms  DeleteObjects: 0.034810 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004236 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.279 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.1 MB.
+System memory in use after: 207.2 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2082.
+Total: 8.064841 ms (FindLiveObjects: 0.246232 ms CreateObjectMapping: 0.152796 ms MarkObjects: 7.631736 ms  DeleteObjects: 0.031878 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004243 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.283 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.1 MB.
+System memory in use after: 207.2 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2084.
+Total: 17.723597 ms (FindLiveObjects: 0.219117 ms CreateObjectMapping: 0.149498 ms MarkObjects: 17.313576 ms  DeleteObjects: 0.038840 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004089 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.301 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.1 MB.
+System memory in use after: 207.2 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2086.
+Total: 7.940626 ms (FindLiveObjects: 0.218751 ms CreateObjectMapping: 0.149498 ms MarkObjects: 7.536468 ms  DeleteObjects: 0.033344 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004139 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.287 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.1 MB.
+System memory in use after: 207.3 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2088.
+Total: 17.512174 ms (FindLiveObjects: 0.227911 ms CreateObjectMapping: 0.154262 ms MarkObjects: 17.093359 ms  DeleteObjects: 0.034077 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003993 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.244 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.2 MB.
+System memory in use after: 207.3 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2090.
+Total: 23.756655 ms (FindLiveObjects: 0.230110 ms CreateObjectMapping: 0.159391 ms MarkObjects: 23.333443 ms  DeleteObjects: 0.031145 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004014 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.214 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.75 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.2 MB.
+System memory in use after: 207.3 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2092.
+Total: 40.792487 ms (FindLiveObjects: 0.227545 ms CreateObjectMapping: 0.160491 ms MarkObjects: 40.368542 ms  DeleteObjects: 0.032978 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1357.609633 seconds.
+  path: Assets/Resources/Prefabs/Pickable_Food.prefab
+  artifactKey: Guid(f659ace9064a2514f9d63d1ef8e883a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Pickable_Food.prefab using Guid(f659ace9064a2514f9d63d1ef8e883a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eac92eaab493612fda65ffeeb194509') in 0.100753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.986805 seconds.
+  path: Assets/Scripts/Conditions/PickupAction.cs
+  artifactKey: Guid(2c26384471a5022469f59790cbfd3f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Conditions/PickupAction.cs using Guid(2c26384471a5022469f59790cbfd3f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b82972655daf4dda7682ec1bdeff116') in 0.015807 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003866 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.311 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.2 MB.
+System memory in use after: 207.3 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 2096.
+Total: 7.593629 ms (FindLiveObjects: 0.238904 ms CreateObjectMapping: 0.078780 ms MarkObjects: 7.234906 ms  DeleteObjects: 0.038107 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 66.222303 seconds.
+  path: Assets/Scripts/Conditions/PickupAction.cs
+  artifactKey: Guid(2c26384471a5022469f59790cbfd3f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Conditions/PickupAction.cs using Guid(2c26384471a5022469f59790cbfd3f06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9fa86b6fbc30541d51fcdf2b1615497') in 0.007154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 68.683265 seconds.
+  path: Assets/Resources/Prefabs/BatteringRamFood.prefab
+  artifactKey: Guid(49aea0cfa69fc724abad2881c41c653d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BatteringRamFood.prefab using Guid(49aea0cfa69fc724abad2881c41c653d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c576794510b67e77fb1711fbdcba9a4') in 0.086260 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004006 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.237 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.2 MB.
+System memory in use after: 207.3 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 2099.
+Total: 9.340339 ms (FindLiveObjects: 0.187606 ms CreateObjectMapping: 0.086841 ms MarkObjects: 9.026686 ms  DeleteObjects: 0.037375 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.747880 seconds.
+  path: Assets/Scripts/Conditions/BatteringRamAction.cs
+  artifactKey: Guid(6f0addd031e9c3c4a8d541c9dc346e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Conditions/BatteringRamAction.cs using Guid(6f0addd031e9c3c4a8d541c9dc346e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3059a5a128b3edfad0d8769e5d0bb5a4') in 0.010299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 83.786330 seconds.
+  path: Assets/Materials/Border.mat
+  artifactKey: Guid(f992f6a800ad3564aaefe91156adc679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Border.mat using Guid(f992f6a800ad3564aaefe91156adc679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '906f460f68a917709dab16be5f449546') in 0.269833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010910 seconds.
+  path: Assets/Materials/Floor2.mat
+  artifactKey: Guid(a1c86c9385727054eb327a5ac8ac492c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Floor2.mat using Guid(a1c86c9385727054eb327a5ac8ac492c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59d93f877eb010c097287ad11e657d53') in 0.046533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007267 seconds.
+  path: Assets/Materials/Floor.mat
+  artifactKey: Guid(7c74f0535aeafa943914a27f687585d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Floor.mat using Guid(7c74f0535aeafa943914a27f687585d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '669232850ed6dd84a0b014ffcdd57ea8') in 0.015763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.072863 seconds.
+  path: Assets/Scenes/Test1.unity
+  artifactKey: Guid(ae1799e9b74745848b8d421730227b11) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scenes/Test1.unity using Guid(ae1799e9b74745848b8d421730227b11) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) 
+[QS] Generated asset artifact (ASIEI01) VirtualArtifacts/NamedExtra/4b5f39be66a8e4d4cb893e5195e3001a.asset.1.index for Assets/Scenes/Test1.unity with Types
+ -> (artifact id: 'e476f18c38e7b4320568a67fdbd78d4d') in 0.208040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016164 seconds.
+  path: Assets/Scripts/Enities/Snake Parts
+  artifactKey: Guid(1064db7e62e665344a30724906d75d6e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scripts/Enities/Snake Parts using Guid(1064db7e62e665344a30724906d75d6e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) 
+[QS] Generated asset artifact (ASIEI01) VirtualArtifacts/NamedExtra/f1a97e3eb4dc1364cb86167f15ce3fe6.asset.1.index for Assets/Scripts/Enities/Snake Parts with Types
+ -> (artifact id: '4a2e3e00be8a10b5003fbb6ce3378c09') in 0.012082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015305 seconds.
+  path: Assets/Resources/Prefabs/BodyPart_BatteringRam.prefab
+  artifactKey: Guid(b577a1bd2b6f13f4fa593c417e8493fe) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Resources/Prefabs/BodyPart_BatteringRam.prefab using Guid(b577a1bd2b6f13f4fa593c417e8493fe) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) 
+[QS] Generated asset artifact (ASIEI01) VirtualArtifacts/NamedExtra/dbda4a4f87cd3c248960f924c60ae72c.asset.1.index for Assets/Resources/Prefabs/BodyPart_BatteringRam.prefab with Types
+ -> (artifact id: '643a5c01c28fd7e2dc95b14e48209267') in 0.028377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011420 seconds.
+  path: Assets/Scripts/Conditions/SnakeCrashAction.cs
+  artifactKey: Guid(45ddd3e0b0961724fa5e3e9f0c7573da) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scripts/Conditions/SnakeCrashAction.cs using Guid(45ddd3e0b0961724fa5e3e9f0c7573da) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) 
+[QS] Generated asset artifact (ASIEI01) VirtualArtifacts/NamedExtra/0bca6a6de5dbff14c9d3524530dcc92e.asset.1.index for Assets/Scripts/Conditions/SnakeCrashAction.cs with Types
+ -> (artifact id: 'd4d3546c7ee6e17b0f86910935793b04') in 0.051167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008742 seconds.
+  path: Assets/Scripts/Enities/Snake Parts/SnakeBodyPart.cs
+  artifactKey: Guid(0038c13c8d1b6d54db981ac8c09a5dc6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scripts/Enities/Snake Parts/SnakeBodyPart.cs using Guid(0038c13c8d1b6d54db981ac8c09a5dc6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) 
+[QS] Generated asset artifact (ASIEI01) VirtualArtifacts/NamedExtra/9a6b3ecd2a4343540a2221ed87f3b4db.asset.1.index for Assets/Scripts/Enities/Snake Parts/SnakeBodyPart.cs with Types
+ -> (artifact id: '38bbace33d4c287e45cc756a8236c5d6') in 0.035332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009659 seconds.
+  path: Assets/Scripts/Grid and Slots/GridSlot.cs
+  artifactKey: Guid(320ccb09189ae894fb0d8facb328e9aa) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scripts/Grid and Slots/GridSlot.cs using Guid(320ccb09189ae894fb0d8facb328e9aa) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) 
+[QS] Generated asset artifact (ASIEI01) VirtualArtifacts/NamedExtra/893c1fe953929e0498341ead77177919.asset.1.index for Assets/Scripts/Grid and Slots/GridSlot.cs with Types
+ -> (artifact id: '661937c58b0cb17ce7f236cf61d7fb11') in 0.020364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009413 seconds.
+  path: Assets/Scripts/Grid and Slots
+  artifactKey: Guid(186e9a158ae98304ba4ab1daf0f30dca) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scripts/Grid and Slots using Guid(186e9a158ae98304ba4ab1daf0f30dca) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) 
+[QS] Generated asset artifact (ASIEI01) VirtualArtifacts/NamedExtra/8b9ed3c7ff8ef464f9dd6c21f97d101a.asset.1.index for Assets/Scripts/Grid and Slots with Types
+ -> (artifact id: 'ce678210646eff9a9e02c4338ff565e0') in 0.026787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010886 seconds.
+  path: Assets/CreatePlayerScreen.cs
+  artifactKey: Guid(429fa22b75455144fa6de1a93bb8df60) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/CreatePlayerScreen.cs using Guid(429fa22b75455144fa6de1a93bb8df60) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) 
+[QS] Generated asset artifact (ASIEI01) VirtualArtifacts/NamedExtra/fca3d40bd4e772844944db3ebb562119.asset.1.index for Assets/CreatePlayerScreen.cs with Types
+ -> (artifact id: 'f10600b45c4b15786965ca1202b32c43') in 0.021577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010203 seconds.
+  path: Assets/Resources/Prefabs/BatteringRamFood.prefab
+  artifactKey: Guid(49aea0cfa69fc724abad2881c41c653d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Resources/Prefabs/BatteringRamFood.prefab using Guid(49aea0cfa69fc724abad2881c41c653d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) 
+[QS] Generated asset artifact (ASIEI01) VirtualArtifacts/NamedExtra/d344cdda7a5aa6244ae522519a6d70f6.asset.1.index for Assets/Resources/Prefabs/BatteringRamFood.prefab with Types
+ -> (artifact id: '5f6b2e169fc959e47805eb5b381196d0') in 0.012650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008870 seconds.
+  path: Assets/Scripts/Player.cs
+  artifactKey: Guid(55111b210694616428aae7b625a5e7d4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scripts/Player.cs using Guid(55111b210694616428aae7b625a5e7d4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) 
+[QS] Generated asset artifact (ASIEI01) VirtualArtifacts/NamedExtra/f9efb4d0a5ec8354492c4c6ca04dc76a.asset.1.index for Assets/Scripts/Player.cs with Types
+ -> (artifact id: '3b2f69616b2670f8b9466639734f677e') in 0.037576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011109 seconds.
+  path: Assets/Scripts/Snake.cs
+  artifactKey: Guid(db8eb9deca7628141aae94af169e076f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scripts/Snake.cs using Guid(db8eb9deca7628141aae94af169e076f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) 
+[QS] Generated asset artifact (ASIEI01) VirtualArtifacts/NamedExtra/f7c09073b6a21984cad5836cd07ae49b.asset.1.index for Assets/Scripts/Snake.cs with Types
+ -> (artifact id: '56d8eaca618866dd37c8f08d5b059db8') in 0.009707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009572 seconds.
+  path: Assets/Scripts/Grid and Slots/BatteringRamPhaseArea.cs
+  artifactKey: Guid(74fe2189b2e0d164bb6324c4956b2a1d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scripts/Grid and Slots/BatteringRamPhaseArea.cs using Guid(74fe2189b2e0d164bb6324c4956b2a1d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) 
+[QS] Generated asset artifact (ASIEI01) VirtualArtifacts/NamedExtra/141e6299587486e47880fedf51228c3b.asset.1.index for Assets/Scripts/Grid and Slots/BatteringRamPhaseArea.cs with Types
+ -> (artifact id: 'e106e4f0ac6606fb86098bc4d2f3966f') in 0.035220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010426 seconds.
+  path: Assets/Scripts/Enities/BatteringRamFood.cs
+  artifactKey: Guid(bb53b67a6e0a62246aec3cdb649d297a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scripts/Enities/BatteringRamFood.cs using Guid(bb53b67a6e0a62246aec3cdb649d297a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) 
+[QS] Generated asset artifact (ASIEI01) VirtualArtifacts/NamedExtra/2bcf316564ea4ce4fbeb862976ca2552.asset.1.index for Assets/Scripts/Enities/BatteringRamFood.cs with Types
+ -> (artifact id: 'dd57ea4f7a44138a401bf270d2552f59') in 0.030695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009509 seconds.
+  path: Assets/Scripts/Grid and Slots/GridSnake.cs
+  artifactKey: Guid(ca359ddee37433241947c2d62e0f15ea) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scripts/Grid and Slots/GridSnake.cs using Guid(ca359ddee37433241947c2d62e0f15ea) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) 
+[QS] Generated asset artifact (ASIEI01) VirtualArtifacts/NamedExtra/a363e1e18fb7b37478b55252cf261f42.asset.1.index for Assets/Scripts/Grid and Slots/GridSnake.cs with Types
+ -> (artifact id: '4a1c94f2f2166ca86c2fe68996914289') in 0.022405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009614 seconds.
+  path: Assets/Materials/BatteringRam.mat
+  artifactKey: Guid(1c4442006d72f61418c0ae9a66dd1267) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Materials/BatteringRam.mat using Guid(1c4442006d72f61418c0ae9a66dd1267) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) 
+[QS] Generated asset artifact (ASIEI01) VirtualArtifacts/NamedExtra/20699afdc084d124eb0264411da2b4aa.asset.1.index for Assets/Materials/BatteringRam.mat with Types
+ -> (artifact id: '7532e032f07f25f74e3c6da16c15d6fa') in 0.032778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009262 seconds.
+  path: Assets/Scripts/Conditions/BodyCrashAction.cs
+  artifactKey: Guid(82c3115e2c01cd7438d24bd76758a494) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scripts/Conditions/BodyCrashAction.cs using Guid(82c3115e2c01cd7438d24bd76758a494) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) 
+[QS] Generated asset artifact (ASIEI01) VirtualArtifacts/NamedExtra/80aaca7c32a03494d89b602e716dab03.asset.1.index for Assets/Scripts/Conditions/BodyCrashAction.cs with Types
+ -> (artifact id: '74a8247f0e0e60418b883bd9a74ef36a') in 0.013443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010539 seconds.
+  path: Assets/Scripts/GameController.cs
+  artifactKey: Guid(65a4f369a6fc7154dbe76d1621e1e779) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scripts/GameController.cs using Guid(65a4f369a6fc7154dbe76d1621e1e779) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) 
+[QS] Generated asset artifact (ASIEI01) VirtualArtifacts/NamedExtra/d05493303c594204a8a80cd26bacf5d6.asset.1.index for Assets/Scripts/GameController.cs with Types
+ -> (artifact id: '9db5e6467483cab6766fd2d2d7a2f4ac') in 0.034872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010489 seconds.
+  path: Assets/Scripts/Conditions/BatteringRamAction.cs
+  artifactKey: Guid(6f0addd031e9c3c4a8d541c9dc346e4f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scripts/Conditions/BatteringRamAction.cs using Guid(6f0addd031e9c3c4a8d541c9dc346e4f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) 
+[QS] Generated asset artifact (ASIEI01) VirtualArtifacts/NamedExtra/389ab35b0c7c6c840bbad4d903d75aed.asset.1.index for Assets/Scripts/Conditions/BatteringRamAction.cs with Types
+ -> (artifact id: 'dc63699f6d6a4095e0dd47c06b7a732d') in 0.010796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016008 seconds.
+  path: Assets/Scripts/Enities/Pickable.cs
+  artifactKey: Guid(fa148414780db0a4fa3ba9597babee33) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scripts/Enities/Pickable.cs using Guid(fa148414780db0a4fa3ba9597babee33) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) 
+[QS] Generated asset artifact (ASIEI01) VirtualArtifacts/NamedExtra/df9fe0fce3e36c84489f9f48a6b4161e.asset.1.index for Assets/Scripts/Enities/Pickable.cs with Types
+ -> (artifact id: '289d11dcc438ab1dcd803c2f6630934c') in 0.012471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010286 seconds.
+  path: Assets/Scripts/Conditions/PickupAction.cs
+  artifactKey: Guid(2c26384471a5022469f59790cbfd3f06) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scripts/Conditions/PickupAction.cs using Guid(2c26384471a5022469f59790cbfd3f06) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) 
+[QS] Generated asset artifact (ASIEI01) VirtualArtifacts/NamedExtra/7e60a54ecfb6ea644803b42883797ac8.asset.1.index for Assets/Scripts/Conditions/PickupAction.cs with Types
+ -> (artifact id: '31ff15de340b49880b77a52dd09c0519') in 0.009171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010685 seconds.
+  path: Assets/Scripts/Enities/Snake Parts/BatteringRamPart.cs
+  artifactKey: Guid(8d9b18d304061514aadf68aafa250297) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scripts/Enities/Snake Parts/BatteringRamPart.cs using Guid(8d9b18d304061514aadf68aafa250297) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) 
+[QS] Generated asset artifact (ASIEI01) VirtualArtifacts/NamedExtra/52c1c1d5cc79d1c4f90916f926ee7d75.asset.1.index for Assets/Scripts/Enities/Snake Parts/BatteringRamPart.cs with Types
+ -> (artifact id: '2548d789c15996144a54aa04a0286e24') in 0.009748 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004109 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.243 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.71 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.4 MB.
+System memory in use after: 207.5 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2135.
+Total: 30.647129 ms (FindLiveObjects: 0.183941 ms CreateObjectMapping: 0.079513 ms MarkObjects: 30.350331 ms  DeleteObjects: 0.030779 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.711358 seconds.
+  path: Assets/Materials/Red.mat
+  artifactKey: Guid(c7fd2933baa31694bb9e05e2c2991156) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Materials/Red.mat using Guid(c7fd2933baa31694bb9e05e2c2991156) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) 
+[QS] Generated asset artifact (ASIEI01) VirtualArtifacts/NamedExtra/cebf363f8f1437244a28a3dcb76da92b.asset.1.index for Assets/Materials/Red.mat with Types
+ -> (artifact id: '9b66a1edb462ed11d8c8abb4484c5bad') in 0.087135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.002124 seconds.
+  path: Assets/Resources/Prefabs/Pickable_Food.prefab
+  artifactKey: Guid(f659ace9064a2514f9d63d1ef8e883a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Pickable_Food.prefab using Guid(f659ace9064a2514f9d63d1ef8e883a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93311e289b01021ea5041aaeca767db4') in 0.098301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.382679 seconds.
+  path: Assets/Resources/Prefabs/Pickable_Food.prefab
+  artifactKey: Guid(f659ace9064a2514f9d63d1ef8e883a5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Resources/Prefabs/Pickable_Food.prefab using Guid(f659ace9064a2514f9d63d1ef8e883a5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) 
+[QS] Generated asset artifact (ASIEI01) VirtualArtifacts/NamedExtra/f891955e09821664ba8d6b5ce3c2685b.asset.1.index for Assets/Resources/Prefabs/Pickable_Food.prefab with Types
+ -> (artifact id: '2410b3e0d93840ab9ed84cf98444e8e0') in 0.017335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.032663 seconds.
+  path: Assets/Materials/BatteringRam.mat
+  artifactKey: Guid(1c4442006d72f61418c0ae9a66dd1267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/BatteringRam.mat using Guid(1c4442006d72f61418c0ae9a66dd1267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2246386e9669819ea910220c4b159f0') in 0.040950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.830365 seconds.
+  path: Assets/Resources/Prefabs/BatteringRamFood.prefab
+  artifactKey: Guid(49aea0cfa69fc724abad2881c41c653d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/BatteringRamFood.prefab using Guid(49aea0cfa69fc724abad2881c41c653d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62a9a7add2112fa090ae573f23117d5f') in 0.016318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.467345 seconds.
+  path: Assets/Resources/Prefabs/BatteringRamFood.prefab
+  artifactKey: Guid(49aea0cfa69fc724abad2881c41c653d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Resources/Prefabs/BatteringRamFood.prefab using Guid(49aea0cfa69fc724abad2881c41c653d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) 
+[QS] Generated asset artifact (ASIEI01) VirtualArtifacts/NamedExtra/b3ea49514538ee14a8dfddc6474367bf.asset.1.index for Assets/Resources/Prefabs/BatteringRamFood.prefab with Types
+ -> (artifact id: '14256ede895e641da5e45112e0aaad6f') in 0.024130 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003992 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.312 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.07 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.4 MB.
+System memory in use after: 207.5 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2138.
+Total: 25.565656 ms (FindLiveObjects: 0.231942 ms CreateObjectMapping: 0.150964 ms MarkObjects: 25.142811 ms  DeleteObjects: 0.037741 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004754 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.278 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.4 MB.
+System memory in use after: 207.5 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2140.
+Total: 28.718676 ms (FindLiveObjects: 0.254293 ms CreateObjectMapping: 0.178079 ms MarkObjects: 28.244899 ms  DeleteObjects: 0.038840 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004063 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.285 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.5 MB.
+System memory in use after: 207.6 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2142.
+Total: 9.758421 ms (FindLiveObjects: 0.248431 ms CreateObjectMapping: 0.172582 ms MarkObjects: 9.299667 ms  DeleteObjects: 0.034810 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004182 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.299 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.5 MB.
+System memory in use after: 207.6 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2144.
+Total: 9.677077 ms (FindLiveObjects: 0.250263 ms CreateObjectMapping: 0.154628 ms MarkObjects: 9.238842 ms  DeleteObjects: 0.030413 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004274 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.287 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.5 MB.
+System memory in use after: 207.6 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2146.
+Total: 13.640977 ms (FindLiveObjects: 0.434204 ms CreateObjectMapping: 0.197132 ms MarkObjects: 12.974098 ms  DeleteObjects: 0.031878 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004198 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.296 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.71 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.5 MB.
+System memory in use after: 207.6 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2148.
+Total: 7.948321 ms (FindLiveObjects: 0.245499 ms CreateObjectMapping: 0.162323 ms MarkObjects: 7.502757 ms  DeleteObjects: 0.035542 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004056 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.238 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.5 MB.
+System memory in use after: 207.6 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2150.
+Total: 53.513024 ms (FindLiveObjects: 0.244400 ms CreateObjectMapping: 0.168185 ms MarkObjects: 53.056835 ms  DeleteObjects: 0.041405 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004002 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.330 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.5 MB.
+System memory in use after: 207.6 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2152.
+Total: 29.967059 ms (FindLiveObjects: 0.255026 ms CreateObjectMapping: 0.175514 ms MarkObjects: 29.452243 ms  DeleteObjects: 0.079513 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004351 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.299 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.5 MB.
+System memory in use after: 207.6 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2154.
+Total: 7.267884 ms (FindLiveObjects: 0.190537 ms CreateObjectMapping: 0.082444 ms MarkObjects: 6.955330 ms  DeleteObjects: 0.037008 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003983 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.320 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.5 MB.
+System memory in use after: 207.6 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2156.
+Total: 20.354472 ms (FindLiveObjects: 0.388402 ms CreateObjectMapping: 0.083910 ms MarkObjects: 19.839656 ms  DeleteObjects: 0.039573 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003985 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.277 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.5 MB.
+System memory in use after: 207.6 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2158.
+Total: 43.398446 ms (FindLiveObjects: 0.236705 ms CreateObjectMapping: 0.149865 ms MarkObjects: 42.981097 ms  DeleteObjects: 0.028214 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1514.446395 seconds.
+  path: Assets/Scripts/Enities/BatteringRamFood.cs
+  artifactKey: Guid(bb53b67a6e0a62246aec3cdb649d297a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enities/BatteringRamFood.cs using Guid(bb53b67a6e0a62246aec3cdb649d297a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b28e765a1fa160c1b0438e423d018242') in 0.009957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.179316 seconds.
+  path: Assets/Scripts/Conditions/BatteringRamAction.cs
+  artifactKey: Guid(6f0addd031e9c3c4a8d541c9dc346e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Conditions/BatteringRamAction.cs using Guid(6f0addd031e9c3c4a8d541c9dc346e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edb737ff4e7bf0d21b6eaae5a640c54c') in 0.006556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.369884 seconds.
+  path: Assets/Scripts/Conditions/SnakeCrashAction.cs
+  artifactKey: Guid(45ddd3e0b0961724fa5e3e9f0c7573da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Conditions/SnakeCrashAction.cs using Guid(45ddd3e0b0961724fa5e3e9f0c7573da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a59051dd20876dd0704b31d4edb0bf64') in 0.035382 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004158 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.236 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.5 MB.
+System memory in use after: 207.6 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2160.
+Total: 44.875107 ms (FindLiveObjects: 0.262355 ms CreateObjectMapping: 0.173682 ms MarkObjects: 44.397665 ms  DeleteObjects: 0.039207 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.205512 seconds.
+  path: Assets/Scripts/Conditions/BodyCrashAction.cs
+  artifactKey: Guid(82c3115e2c01cd7438d24bd76758a494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Conditions/BodyCrashAction.cs using Guid(82c3115e2c01cd7438d24bd76758a494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46fa9586dd0aa032eaa2d0c3773ab38a') in 0.013997 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004002 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.315 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.5 MB.
+System memory in use after: 207.6 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2162.
+Total: 7.766944 ms (FindLiveObjects: 0.249164 ms CreateObjectMapping: 0.161224 ms MarkObjects: 7.325778 ms  DeleteObjects: 0.028214 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003851 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.289 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.5 MB.
+System memory in use after: 207.6 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2164.
+Total: 47.943850 ms (FindLiveObjects: 0.240736 ms CreateObjectMapping: 0.157193 ms MarkObjects: 47.509646 ms  DeleteObjects: 0.034077 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004422 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.238 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.5 MB.
+System memory in use after: 207.6 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2166.
+Total: 39.639006 ms (FindLiveObjects: 0.243301 ms CreateObjectMapping: 0.163788 ms MarkObjects: 39.191611 ms  DeleteObjects: 0.038474 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004093 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.251 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.71 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.5 MB.
+System memory in use after: 207.6 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2168.
+Total: 25.683643 ms (FindLiveObjects: 0.305592 ms CreateObjectMapping: 0.157559 ms MarkObjects: 25.183483 ms  DeleteObjects: 0.034810 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004138 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.273 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.5 MB.
+System memory in use after: 207.6 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2170.
+Total: 10.337727 ms (FindLiveObjects: 0.266019 ms CreateObjectMapping: 0.173682 ms MarkObjects: 9.862484 ms  DeleteObjects: 0.033344 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004056 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.308 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.5 MB.
+System memory in use after: 207.7 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2172.
+Total: 25.719185 ms (FindLiveObjects: 0.269683 ms CreateObjectMapping: 0.534969 ms MarkObjects: 24.873494 ms  DeleteObjects: 0.038840 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004117 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.301 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.6 MB.
+System memory in use after: 207.7 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2174.
+Total: 32.139913 ms (FindLiveObjects: 0.244767 ms CreateObjectMapping: 0.166720 ms MarkObjects: 31.689220 ms  DeleteObjects: 0.036275 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004166 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.283 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.6 MB.
+System memory in use after: 207.7 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2176.
+Total: 60.709823 ms (FindLiveObjects: 0.216919 ms CreateObjectMapping: 0.122750 ms MarkObjects: 60.338276 ms  DeleteObjects: 0.029680 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004197 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.267 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.6 MB.
+System memory in use after: 207.7 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2178.
+Total: 27.936742 ms (FindLiveObjects: 0.267118 ms CreateObjectMapping: 0.180644 ms MarkObjects: 27.394811 ms  DeleteObjects: 0.035176 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004806 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.303 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.6 MB.
+System memory in use after: 207.7 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2180.
+Total: 76.024228 ms (FindLiveObjects: 0.258690 ms CreateObjectMapping: 0.186506 ms MarkObjects: 75.539458 ms  DeleteObjects: 0.037741 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004476 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.324 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.6 MB.
+System memory in use after: 207.7 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2182.
+Total: 7.694027 ms (FindLiveObjects: 0.245866 ms CreateObjectMapping: 0.155727 ms MarkObjects: 7.258357 ms  DeleteObjects: 0.031145 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004315 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.281 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.6 MB.
+System memory in use after: 207.7 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2184.
+Total: 7.367549 ms (FindLiveObjects: 0.192003 ms CreateObjectMapping: 0.080612 ms MarkObjects: 7.058293 ms  DeleteObjects: 0.034810 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005390 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.321 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.6 MB.
+System memory in use after: 207.7 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2186.
+Total: 21.063123 ms (FindLiveObjects: 0.247698 ms CreateObjectMapping: 0.158659 ms MarkObjects: 20.621956 ms  DeleteObjects: 0.032245 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004001 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.285 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.6 MB.
+System memory in use after: 207.7 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2188.
+Total: 39.080953 ms (FindLiveObjects: 0.243667 ms CreateObjectMapping: 0.330508 ms MarkObjects: 38.466105 ms  DeleteObjects: 0.038474 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003927 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.289 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.6 MB.
+System memory in use after: 207.7 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2190.
+Total: 7.195333 ms (FindLiveObjects: 0.187606 ms CreateObjectMapping: 0.076581 ms MarkObjects: 6.899635 ms  DeleteObjects: 0.028581 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004192 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.294 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.6 MB.
+System memory in use after: 207.7 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2192.
+Total: 8.154247 ms (FindLiveObjects: 0.456556 ms CreateObjectMapping: 0.171483 ms MarkObjects: 7.489566 ms  DeleteObjects: 0.034077 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004404 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.292 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.6 MB.
+System memory in use after: 207.7 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2194.
+Total: 22.149549 ms (FindLiveObjects: 0.258690 ms CreateObjectMapping: 0.162689 ms MarkObjects: 21.682368 ms  DeleteObjects: 0.043237 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004276 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.301 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.6 MB.
+System memory in use after: 207.7 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2196.
+Total: 9.136611 ms (FindLiveObjects: 0.311821 ms CreateObjectMapping: 0.182109 ms MarkObjects: 8.607871 ms  DeleteObjects: 0.032245 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004268 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.240 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.6 MB.
+System memory in use after: 207.7 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2198.
+Total: 18.624983 ms (FindLiveObjects: 0.254660 ms CreateObjectMapping: 0.163788 ms MarkObjects: 18.172091 ms  DeleteObjects: 0.032245 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003991 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.300 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.78 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.6 MB.
+System memory in use after: 207.7 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2200.
+Total: 7.949786 ms (FindLiveObjects: 0.244034 ms CreateObjectMapping: 0.155361 ms MarkObjects: 7.496895 ms  DeleteObjects: 0.050932 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003957 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.280 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.78 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.6 MB.
+System memory in use after: 207.7 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2202.
+Total: 17.977524 ms (FindLiveObjects: 0.196033 ms CreateObjectMapping: 0.084642 ms MarkObjects: 17.664604 ms  DeleteObjects: 0.029313 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004106 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.286 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.6 MB.
+System memory in use after: 207.7 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2204.
+Total: 76.573120 ms (FindLiveObjects: 0.235606 ms CreateObjectMapping: 0.150597 ms MarkObjects: 76.152473 ms  DeleteObjects: 0.032245 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004200 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.324 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.6 MB.
+System memory in use after: 207.8 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2206.
+Total: 83.971449 ms (FindLiveObjects: 0.278843 ms CreateObjectMapping: 0.172582 ms MarkObjects: 83.481549 ms  DeleteObjects: 0.034810 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003940 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.291 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.6 MB.
+System memory in use after: 207.8 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2208.
+Total: 7.361320 ms (FindLiveObjects: 0.239270 ms CreateObjectMapping: 0.154994 ms MarkObjects: 6.931879 ms  DeleteObjects: 0.032978 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004438 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.243 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.7 MB.
+System memory in use after: 207.8 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2210.
+Total: 29.122834 ms (FindLiveObjects: 0.207392 ms CreateObjectMapping: 0.084642 ms MarkObjects: 28.796723 ms  DeleteObjects: 0.031512 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004674 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.311 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.7 MB.
+System memory in use after: 207.8 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2212.
+Total: 10.390857 ms (FindLiveObjects: 0.253561 ms CreateObjectMapping: 0.165987 ms MarkObjects: 9.937233 ms  DeleteObjects: 0.030779 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004023 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.278 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.71 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.7 MB.
+System memory in use after: 207.8 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2214.
+Total: 7.812013 ms (FindLiveObjects: 0.205926 ms CreateObjectMapping: 0.080612 ms MarkObjects: 7.480406 ms  DeleteObjects: 0.042871 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004002 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.329 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.04 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.7 MB.
+System memory in use after: 207.8 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2216.
+Total: 7.639431 ms (FindLiveObjects: 0.211423 ms CreateObjectMapping: 0.079146 ms MarkObjects: 7.317350 ms  DeleteObjects: 0.029313 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004309 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.286 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.7 MB.
+System memory in use after: 207.8 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2218.
+Total: 8.638650 ms (FindLiveObjects: 0.270049 ms CreateObjectMapping: 0.176613 ms MarkObjects: 8.154980 ms  DeleteObjects: 0.034443 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004411 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.255 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.7 MB.
+System memory in use after: 207.8 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2220.
+Total: 16.210294 ms (FindLiveObjects: 0.250629 ms CreateObjectMapping: 0.159025 ms MarkObjects: 15.755937 ms  DeleteObjects: 0.041772 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 14.15 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 176.3 MB.
+System memory in use after: 176.4 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2220.
+Total: 8.417334 ms (FindLiveObjects: 0.257591 ms CreateObjectMapping: 0.153162 ms MarkObjects: 7.967741 ms  DeleteObjects: 0.035909 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004014 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.294 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.7 MB.
+System memory in use after: 207.8 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2222.
+Total: 46.964417 ms (FindLiveObjects: 0.195667 ms CreateObjectMapping: 0.080978 ms MarkObjects: 46.655161 ms  DeleteObjects: 0.030413 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004599 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.282 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.7 MB.
+System memory in use after: 207.8 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2224.
+Total: 29.206377 ms (FindLiveObjects: 0.203362 ms CreateObjectMapping: 0.078780 ms MarkObjects: 28.880999 ms  DeleteObjects: 0.040672 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004213 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.255 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.7 MB.
+System memory in use after: 207.8 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2226.
+Total: 27.100944 ms (FindLiveObjects: 0.265286 ms CreateObjectMapping: 0.161590 ms MarkObjects: 26.638526 ms  DeleteObjects: 0.033710 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 18.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 176.3 MB.
+System memory in use after: 176.5 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2226.
+Total: 40.451719 ms (FindLiveObjects: 0.230843 ms CreateObjectMapping: 0.151330 ms MarkObjects: 40.029240 ms  DeleteObjects: 0.038474 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004421 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.268 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.7 MB.
+System memory in use after: 207.8 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2228.
+Total: 13.133489 ms (FindLiveObjects: 0.278477 ms CreateObjectMapping: 0.167453 ms MarkObjects: 12.650185 ms  DeleteObjects: 0.034810 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004035 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.335 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.7 MB.
+System memory in use after: 207.8 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2230.
+Total: 7.956382 ms (FindLiveObjects: 0.262721 ms CreateObjectMapping: 0.158292 ms MarkObjects: 7.480772 ms  DeleteObjects: 0.050199 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 19.92 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 176.3 MB.
+System memory in use after: 176.5 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2230.
+Total: 7.950885 ms (FindLiveObjects: 0.285805 ms CreateObjectMapping: 0.186140 ms MarkObjects: 7.446329 ms  DeleteObjects: 0.030413 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004482 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.637 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.75 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1611 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.7 MB.
+System memory in use after: 207.8 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2232.
+Total: 8.936914 ms (FindLiveObjects: 0.294233 ms CreateObjectMapping: 0.168185 ms MarkObjects: 8.417701 ms  DeleteObjects: 0.053497 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 12.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 176.4 MB.
+System memory in use after: 176.5 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2232.
+Total: 10.324902 ms (FindLiveObjects: 0.276645 ms CreateObjectMapping: 0.177346 ms MarkObjects: 9.832437 ms  DeleteObjects: 0.034810 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 19.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 176.4 MB.
+System memory in use after: 176.5 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2232.
+Total: 31.677494 ms (FindLiveObjects: 0.306691 ms CreateObjectMapping: 0.159025 ms MarkObjects: 31.177701 ms  DeleteObjects: 0.032611 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 19.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 176.4 MB.
+System memory in use after: 176.5 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2232.
+Total: 11.925779 ms (FindLiveObjects: 0.282508 ms CreateObjectMapping: 0.173682 ms MarkObjects: 11.434413 ms  DeleteObjects: 0.032245 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 18.90 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 176.4 MB.
+System memory in use after: 176.5 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2232.
+Total: 9.365988 ms (FindLiveObjects: 0.449594 ms CreateObjectMapping: 0.176979 ms MarkObjects: 8.708270 ms  DeleteObjects: 0.028947 ms)
+
