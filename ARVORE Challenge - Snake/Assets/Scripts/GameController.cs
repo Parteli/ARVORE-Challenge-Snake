@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
@@ -11,10 +12,10 @@ public class GameController : MonoBehaviour
         {
             if (_instance == null)
             {
-                _instance = FindObjectOfType<GameController>();
+                _instance = FindObjectOfType<GameController>(true);
                 if (_instance == null)
                 {
-                    _instance = new GameObject().AddComponent<GameController>();
+                    _instance = (new GameObject()).AddComponent<GameController>();
                     _instance.name = "__GameController__";
                 }
             }
@@ -23,58 +24,67 @@ public class GameController : MonoBehaviour
         }
     }
 
-    private GridSnake gridSnake;
-
-    private List<Snake> snakeList;
-
-    [HideInInspector]
-    public List<Player> playerList;
-
-    private List<SlotActionTemplate> actionList;
-
-
-    private void Awake()
+    private List<Player> _playerList;
+    public List<Player> playerList 
     {
-        gridSnake = FindObjectOfType<GridSnake>();
-        actionList = new List<SlotActionTemplate>();
-        actionList.AddRange(GetComponentsInChildren<SlotActionTemplate>(true));
-
-        bool actionBorder = false;
-        foreach (SlotActionTemplate act in actionList)
-            if (act is BorderLineAction) actionBorder = true;
-
-        if (!actionBorder) actionList.Add(new DeathBorderAction() );
-
-        // players ??????------------------------
-        snakeList = new List<Snake>();
-        snakeList.AddRange( FindObjectsOfType<Snake>(true) ) ;
-        //---------------------------------------------------
+        get
+        {
+            if (_playerList == null)
+            { _playerList = new List<Player>(); }
+            return _playerList;
+        }
     }
 
+    private bool onMatch = false;
+
+
+
+    public void StartMatch()
+    {
+        onMatch = true;
+
+        GridSnake.instance.gameObject.SetActive(true);
+        FoodHandler.instance.gameObject.SetActive(true);
+
+        foreach (Player p in playerList) p.StartMatch();
+
+        GridSnake.instance.InitializeAllSnake();
+
+    }
 
     private void LateUpdate()
     {
-        SolveGridConflicts();
-
-        if (Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.P))
-            Application.Quit();
-    }
-
-
-    private void SolveGridConflicts()
-    {
-        List<GridSlot> cases = gridSnake.FindConflicts();
-
-        foreach (GridSlot slot in cases)
+        if ( Input.GetKeyDown(KeyCode.Escape) )
         {
-            CallActionsOnSlot(slot);
+            if (onMatch)
+            {
+                int scene = SceneManager.GetActiveScene().buildIndex;
+                SceneManager.LoadScene(scene, LoadSceneMode.Single);
+            }
+            else Application.Quit();
         }
 
+        if (onMatch) Respawn();
     }
-    public void CallActionsOnSlot(GridSlot slot)
+
+    private void Respawn()
     {
-        foreach (SlotActionTemplate action in actionList)
-            action.Evaluate(slot);
+        foreach (Player p in playerList)
+        {
+            if (p.snake.isDead)
+            {
+                if (Input.GetKeyDown(p.rightKey) && Input.GetKeyDown(p.leftKey))
+                {
+                    p.CreatePlayerSnake();
+                    GridSnake.instance.InitializeSnake(p.snake);
+                }
+            }
+            else if (p.enemy.isDead)
+            {
+                p.CreateEnemySnake();
+                GridSnake.instance.InitializeSnake(p.enemy);
+            }
+        }
     }
 }
 

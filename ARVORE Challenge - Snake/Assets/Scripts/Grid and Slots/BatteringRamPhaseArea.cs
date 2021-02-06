@@ -36,7 +36,7 @@ public class BatteringRamPhaseArea : GridSlot
         this.snake1 = snake1;
         this.snake2 = snake2;
 
-        Debug.LogWarning("Second snake must be slowed and have its score frozen");
+        //snake2.AddSpeedBuff(-1);
 
         oldSlot = slot;
         oldSlot.ClearUsers();
@@ -51,7 +51,7 @@ public class BatteringRamPhaseArea : GridSlot
             if (entity is SnakeBodyPart)
             {
                 SnakeBodyPart bp = (SnakeBodyPart)entity;
-                if (bp.getTail == bp) EndPhaseArea();
+                if (bp.tail == bp) EndPhaseArea();
             }
             users.Remove(entity);
             hasChanged = users.Count > 0;
@@ -60,6 +60,7 @@ public class BatteringRamPhaseArea : GridSlot
 
     private void EndPhaseArea()
     {
+        //snake2.AddSpeedBuff(1);
         GridSnake.instance.ExchangeSlots(oldSlot);
         //Garbage Collector do your thing
     }

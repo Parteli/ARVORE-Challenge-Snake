@@ -5,14 +5,14 @@ using UnityEngine;
 public abstract class Entity : MonoBehaviour
 {
     [SerializeField]
-    private Vector2 _coordinates;
-    public Vector2 coordinates
+    protected Vector2 _coordinates;
+    public virtual Vector2 coordinates
     { get { return _coordinates; }
       set { _coordinates = value; } }
 
     [SerializeField]
-    private Vector2 _orientation;
-    public Vector2 orientation
+    protected Vector2 _orientation;
+    public virtual Vector2 orientation
     {
         get { return _orientation; }
         set { _orientation = value; }

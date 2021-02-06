@@ -57,28 +57,42 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Conditions\DeathBorderAction.cs" />
+    <Compile Include="Assets\Scripts\BuildSnakeUI.cs" />
+    <Compile Include="Assets\Scripts\CreatePlayerScreen.cs" />
+    <Compile Include="Assets\Scripts\NpcControlSnake.cs" />
+    <Compile Include="Assets\Scripts\PlayerTag.cs" />
     <Compile Include="Assets\Scripts\Enities\Obstacle.cs" />
+    <Compile Include="Assets\Scripts\FoodHandler.cs" />
     <Compile Include="Assets\Scripts\Grid and Slots\BatteringRamPhaseArea.cs" />
     <Compile Include="Assets\Scripts\Enities\Entity.cs" />
+    <Compile Include="Assets\test.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\Enities\Snake Parts\ReversePart.cs" />
+    <Compile Include="Assets\Scripts\PlayerControlSnake.cs" />
+    <Compile Include="Assets\Scripts\Enities\Snake Parts\OuroborosPart.cs" />
     <Compile Include="Assets\Scripts\Conditions\BorderLineAction.cs" />
+    <Compile Include="Assets\Scripts\Enities\Snake Parts\WrongBodyPart.cs" />
     <Compile Include="Assets\Scripts\Snake.cs" />
     <Compile Include="Assets\Scripts\Enities\Snake Parts\BatteringRamPart.cs" />
     <Compile Include="Assets\Scripts\Utility.cs" />
+    <Compile Include="Assets\Scripts\Enities\Snake Parts\PowerEnginePart.cs" />
     <Compile Include="Assets\Scripts\Conditions\BatteringRamAction.cs" />
     <Compile Include="Assets\Scripts\Grid and Slots\GridSnake.cs" />
-    <Compile Include="Assets\Scripts\Enities\Pickable.cs" />
+    <Compile Include="Assets\Scripts\Enities\Foods\Pickable.cs" />
+    <Compile Include="Assets\Scripts\SnakeController.cs" />
+    <Compile Include="Assets\Scripts\Enities\Foods\PowerEngineFood.cs" />
     <Compile Include="Assets\Scripts\Enities\Snake Parts\SnakeBodyPart.cs" />
     <Compile Include="Assets\Scripts\GameController.cs" />
     <Compile Include="Assets\Scripts\Conditions\SnakeCrashAction.cs" />
+    <Compile Include="Assets\Scripts\Enities\Snake Parts\TimeTravelPart.cs" />
+    <Compile Include="Assets\Scripts\Enities\Foods\BatteringRamFood.cs" />
     <Compile Include="Assets\Scripts\Grid and Slots\GridSlot.cs" />
     <Compile Include="Assets\Scripts\Conditions\SlotActionTemplate.cs" />
     <Compile Include="Assets\Scripts\Conditions\BodyCrashAction.cs" />
     <Compile Include="Assets\Scripts\Conditions\PickupAction.cs" />
-    <Compile Include="Assets\CreatePlayerScreen.cs" />
-    <Compile Include="Assets\Scripts\Enities\BatteringRamFood.cs" />
   </ItemGroup>
   <ItemGroup>
+     <None Include="Assets\READ-ME.txt" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.1.0b4\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>

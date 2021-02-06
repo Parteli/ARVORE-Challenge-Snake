@@ -17,7 +17,7 @@ public class PickupAction : SlotActionTemplate
             {
                 SnakeBodyPart b = (SnakeBodyPart)e;
                 //the first head to arive takes the food
-                if (b.getHead == b) head = (SnakeBodyPart)e;
+                if (b.head == b) head = (SnakeBodyPart)e;
             }
             else if (e is Pickable) food = (Pickable)e;
         }

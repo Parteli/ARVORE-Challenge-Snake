@@ -49,9 +49,8 @@ public class GridSlot
     }
     public virtual void RemoveUser(Entity entity)
     {
-        if (users.Contains(entity))
+        if (users.Remove(entity))
         {
-            users.Remove(entity);
             hasChanged = users.Count>0;
         }
     }

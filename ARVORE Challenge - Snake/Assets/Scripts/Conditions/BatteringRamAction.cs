@@ -7,19 +7,24 @@ public class BatteringRamAction : SlotActionTemplate
     public override void Evaluate(GridSlot slot)
     {
         if (!slot.hasComflict) return;
-
-        List<BatteringRamPart> ramHeads = new List<BatteringRamPart>();
+        List<SnakeBodyPart> ramHeads = new List<SnakeBodyPart>();
         List<SnakeBodyPart> normalBodies = new List<SnakeBodyPart>();
 
         foreach (Entity e in slot.users)
         {
-            if (e is BatteringRamPart)
+            if (e is SnakeBodyPart)
             {
-                BatteringRamPart b = (BatteringRamPart)e;
-                //only works when Battering Ram is the head
-                if (b.getHead == b) ramHeads.Add((BatteringRamPart)e);
+                SnakeBodyPart p = (SnakeBodyPart)e;
+                if (p.head == p)
+                {
+                    if (p.snake.FirstOffType<BatteringRamPart>() != null)
+                    {
+                        ramHeads.Add(p);
+                        continue;
+                    }
+                }
+                normalBodies.Add(p);
             }
-            else if (e is SnakeBodyPart) normalBodies.Add((SnakeBodyPart)e);
         }
         //no Battering heads
         if (ramHeads.Count == 0) return;
@@ -43,7 +48,7 @@ public class BatteringRamAction : SlotActionTemplate
                     normalBodies[i].snake);
         }
 
-        ramHeads[ramHeads.Count - 1].snake.UseHeadPower();
+        ramHeads[ramHeads.Count - 1].snake.UsePower<BatteringRamPart>();
       
     }
 }

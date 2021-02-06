@@ -1,0 +1,43 @@
+Hola,
+
+A intenção desta abordagem na construção do codigo é possibilitar a criação de mapas
+customizaveis (modulares). Pretendo adicionar ferrementas de edição para construção dos
+mapas.
+
+Eu não usei nada da fisica nativa do Unity. Todos os movimentos e colisões são detectados
+pela Grid (mapa).
+
+
+Customização do código:
+
+- Para adicionar opções de seleção inicial para a cobra basta adicionar a classe respectiva
+daquela parte em um objeto vazio e colocar tal objeto como referencia no quadro "BuildSnakeUI"
+que quizer.
+	Mantenha esse objeto de referencia desativado. O codigo ainda não suporta classes com a
+	função Update.
+
+- Para adicionar os tipos de comida que irão aparecer basta adicionar o PREFAB na lista do
+ "FoodHadler".
+
+- Para adicionar regras é preciso adicionar a respectiva classe no objeto "Actions" que deve
+ser filho da Grid.
+	Essas regras são aplicadas a cada casa (tile) do mapa.
+	Essas regras funcionam ao identificar quais objetos se encontram naquela casa.
+	Com isso é possivel criar qualquer tipo de mecanica relacionada a posição (coordenadas)
+		ou interação entre 2 ou mais objetos.
+
+
+JOGABILIDADE
+
+- Na tela de seleção de jogador você pode usar as teclas selecionadas para customizar
+sua cor de identificação (nova cor aleatoria por clique) e a configuração inicial da
+cobra.
+- Aperte "Esc" durante a tela de seleção para fechar o jogo.
+- Aperte "Esc" durante a partida para voltar a tela de seleção.
+- Os jogadores que estiverem mortos podem pressionar ambas suas teclas para voltar ao jogo.
+
+
+
+PS:
+Peço desculpas pela versão ser a 2021.1.0b4, a versão 2020.1.16f1 teve conflitos com o meu
+localhost e não abria...

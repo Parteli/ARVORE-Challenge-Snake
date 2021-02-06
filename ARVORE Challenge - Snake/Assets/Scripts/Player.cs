@@ -2,28 +2,112 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[System.Serializable]
 public class Player
 {
-    public Snake snake;
-    public Snake enemy;
-    public Pickable food;
+    public PlayerTag tag;
+
+    public PlayerControlSnake snakeController;
+    public Snake snake
+    {
+        get
+        {
+            if (snakeController == null) return null;
+            return snakeController.snake;
+        }
+    }
+    public bool isSnakeActive { get { return !(snake == null || snake.isDead); } }
+
+    private NpcControlSnake npcSnake;
+    public Snake enemy
+    {
+        get {
+            if (npcSnake == null) return null;
+
+            return npcSnake.snake;
+        }
+    }
+
+    private Pickable _food;
+    public Pickable food
+    {
+        get { return _food; }
+
+        set {
+            if (_food != null) GameObject.Destroy(_food);
+            _food = value;
+            snake.food = value;
+
+            if(enemy != null) enemy.food = value;
+
+            Utility.SetColorForAll(_food.transform, color);
+        }
+    }
 
     public KeyCode leftKey;
     public KeyCode rightKey;
 
-    /*
-    public bool IsFromPlayer(Snake s1, Snake s2)
-    {
-        bool check1 = snakeList.Contains(s1) || enemyList.Contains(s1);
-        bool check2 = snakeList.Contains(s2) || enemyList.Contains(s2);
+    public Color color;
 
-        return check1 && check2;
-    }
-    public bool IsFromPlayer(Snake s1, Pickable p1)
+    public List<string> snakeData = null;
+    
+
+
+    public void StartMatch()
     {
-        bool check1 = snakeList.Contains(s1) || enemyList.Contains(s1);
-        bool check2 = foodList.Contains(p1);
-        return check1 && check2;
+        CreatePlayerSnake();
+        CreateEnemySnake();
     }
-    */
+
+    public void CreatePlayerSnake()
+    {
+        if (snake != null)
+        {
+            GameObject.DestroyImmediate(snake.gameObject);
+            snakeController = null;
+        }
+
+        snakeController = (new GameObject()).AddComponent<PlayerControlSnake>();
+        snakeController.transform.SetParent(GridSnake.instance.transform);
+        snakeController.player = this;
+
+        Color c = color;
+        color.a = 0.7f;
+        snakeController.snake.color = c;
+        snakeController.snake.name = "Snake: " +
+            Utility.LastLetterOf(leftKey.ToString()) +
+            Utility.LastLetterOf(rightKey.ToString());
+
+
+        snakeController.snake.spareList = new List<string>();
+        snakeController.snake.spareList.AddRange(snakeData);
+
+        if (food != null) snakeController.snake.food = food;
+    }
+
+
+    //Create a Controller to handle the enemy snakes 
+    public void CreateEnemySnake()
+    {
+        if (enemy != null)
+        {
+            GameObject.Destroy(enemy.gameObject);
+            npcSnake = null;
+        }
+
+        npcSnake = (new GameObject()).AddComponent<NpcControlSnake>();
+        npcSnake.transform.SetParent(GridSnake.instance.transform);
+
+        npcSnake.snake.color = color;
+        npcSnake.snake.name = "Enemy: " +
+            Utility.LastLetterOf(leftKey.ToString()) +
+            Utility.LastLetterOf(rightKey.ToString());
+
+
+        npcSnake.snake.spareList = new List<string>();
+        npcSnake.snake.spareList.Add(SnakeBodyPart.PREFAB_URL);
+        npcSnake.snake.spareList.Add(SnakeBodyPart.PREFAB_URL);
+
+        if (food != null) npcSnake.snake.food = food;
+    }
 }

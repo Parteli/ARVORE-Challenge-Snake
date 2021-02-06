@@ -18,7 +18,7 @@ public class SnakeCrashAction : SlotActionTemplate
                 SnakeBodyPart b = (SnakeBodyPart)e;
                 
                 //separating bodies and heads
-                if (b.getHead == b) heads.Add(b);
+                if (b.head == b) heads.Add(b);
                 else bodyCount++;
             }
         }
