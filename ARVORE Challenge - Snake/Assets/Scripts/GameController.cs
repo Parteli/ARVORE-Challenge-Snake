@@ -24,6 +24,8 @@ public class GameController : MonoBehaviour
         }
     }
 
+    public bool debugMode = false;
+
     private List<Player> _playerList;
     public List<Player> playerList 
     {
@@ -41,10 +43,12 @@ public class GameController : MonoBehaviour
 
     public void StartMatch()
     {
+
         onMatch = true;
 
-        GridSnake.instance.gameObject.SetActive(true);
-        FoodHandler.instance.gameObject.SetActive(true);
+        GridSnake.instance.Setup();
+        FoodHandler.instance.Setup();
+        ScoreController.instance.Setup();
 
         foreach (Player p in playerList) p.StartMatch();
 

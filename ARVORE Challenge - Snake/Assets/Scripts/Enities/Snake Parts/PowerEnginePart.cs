@@ -18,15 +18,14 @@ public class PowerEnginePart : SnakeBodyPart
     public override string description { get { return DESCRIPTION; } }
     public static new string DESCRIPTION = "Makes the snake go faster and more than compensate for the increase in weight.";
 
-    private static float SPEED_BUFF = 1f;
 
     private void Start()
     {
-        snake.AddSpeedBuff(SPEED_BUFF);
+        snake.AddSpeedBuff(Snake.WEIGHT_RATIO*2.5f);
     }
     private void OnDestroy()
     {
-        snake.RemoveSpeedBuff(SPEED_BUFF);
+        snake.AddSpeedBuff(-Snake.WEIGHT_RATIO * 2.5f);
     }
 
 

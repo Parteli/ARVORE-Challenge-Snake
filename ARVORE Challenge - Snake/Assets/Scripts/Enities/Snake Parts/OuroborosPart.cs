@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class OuroborosPart : SnakeBodyPart
+public class OuroborosPart : HeadPowerPart
 {
     //I need to find a better way to do this...
     //I should use custom DATA

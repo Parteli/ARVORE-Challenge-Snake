@@ -7,48 +7,45 @@ public class BatteringRamAction : SlotActionTemplate
     public override void Evaluate(GridSlot slot)
     {
         if (!slot.hasComflict) return;
-        List<SnakeBodyPart> ramHeads = new List<SnakeBodyPart>();
+        if (slot is BatteringRamPhaseArea) return;
+
         List<SnakeBodyPart> normalBodies = new List<SnakeBodyPart>();
+        SnakeBodyPart ramHead = null;
 
         foreach (Entity e in slot.users)
         {
             if (e is SnakeBodyPart)
             {
                 SnakeBodyPart p = (SnakeBodyPart)e;
-                if (p.head == p)
+                if (p.head == p && p is BatteringRamPart)
                 {
-                    if (p.snake.FirstOffType<BatteringRamPart>() != null)
+                    if (ramHead == null) ramHead = p;
+                    else
                     {
-                        ramHeads.Add(p);
-                        continue;
+                        ramHead.Contact();
+                        p.Contact();
+                        ramHead = null;
+                        
                     }
                 }
-                normalBodies.Add(p);
+                else normalBodies.Add(p);
             }
         }
         //no Battering heads
-        if (ramHeads.Count == 0) return;
+        if (ramHead == null) return;
 
         //nothing to run over
-        if (ramHeads.Count + normalBodies.Count <= 1) return;
+        if (normalBodies.Count == 0) return;
 
-        //if more than 1 battering head
-        //the last head to arrive run over the rest
-        for (int i = 0; i < ramHeads.Count - 1; i++)
-        {
-            new BatteringRamPhaseArea(slot,
-                    ramHeads[ramHeads.Count - 1].snake,
-                    ramHeads[i].snake);
-        }
-        //normal bodies always get trampled
+
+        ramHead = ramHead.snake.UseHeadPower();
+
         for (int i = 0; i < normalBodies.Count; i++)
         {
-            new BatteringRamPhaseArea(slot,
-                    ramHeads[ramHeads.Count - 1].snake,
-                    normalBodies[i].snake);
+            new BatteringRamPhaseArea(slot, ramHead, normalBodies[i]);
         }
 
-        ramHeads[ramHeads.Count - 1].snake.UsePower<BatteringRamPart>();
-      
+        //ramHead.snake.UsePower<BatteringRamPart>();
+
     }
 }

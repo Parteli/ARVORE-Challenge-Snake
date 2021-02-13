@@ -5,7 +5,7 @@ using UnityEngine;
 [System.Serializable]
 public class Player
 {
-    public PlayerTag tag;
+    public PlayerTag playerTag;
 
     public PlayerControlSnake snakeController;
     public Snake snake
@@ -28,6 +28,7 @@ public class Player
         }
     }
 
+    /*
     private Pickable _food;
     public Pickable food
     {
@@ -38,20 +39,20 @@ public class Player
             _food = value;
             snake.food = value;
 
-            if(enemy != null) enemy.food = value;
+            if (enemy != null) enemy.food = value;
 
             Utility.SetColorForAll(_food.transform, color);
         }
     }
-
+    */
     public KeyCode leftKey;
     public KeyCode rightKey;
 
     public Color color;
 
     public List<string> snakeData = null;
-    
 
+    public event Utility.GetSnakeDelegate OnCreateSnake = delegate {};
 
     public void StartMatch()
     {
@@ -63,7 +64,8 @@ public class Player
     {
         if (snake != null)
         {
-            GameObject.DestroyImmediate(snake.gameObject);
+            snake.gameObject.SetActive(false);
+            GameObject.Destroy(snake.gameObject);
             snakeController = null;
         }
 
@@ -72,7 +74,7 @@ public class Player
         snakeController.player = this;
 
         Color c = color;
-        color.a = 0.7f;
+        c.a = 0.7f;
         snakeController.snake.color = c;
         snakeController.snake.name = "Snake: " +
             Utility.LastLetterOf(leftKey.ToString()) +
@@ -82,7 +84,9 @@ public class Player
         snakeController.snake.spareList = new List<string>();
         snakeController.snake.spareList.AddRange(snakeData);
 
-        if (food != null) snakeController.snake.food = food;
+        //if (food != null) snakeController.snake.food = food;
+
+        OnCreateSnake(snakeController.snake);
     }
 
 
@@ -91,6 +95,8 @@ public class Player
     {
         if (enemy != null)
         {
+            FoodHandler.instance.RemoveMessageFromPlayerFood(this, npcSnake.SetTargetFood);
+            enemy.gameObject.SetActive(false);
             GameObject.Destroy(enemy.gameObject);
             npcSnake = null;
         }
@@ -108,6 +114,8 @@ public class Player
         npcSnake.snake.spareList.Add(SnakeBodyPart.PREFAB_URL);
         npcSnake.snake.spareList.Add(SnakeBodyPart.PREFAB_URL);
 
-        if (food != null) npcSnake.snake.food = food;
+
+        FoodHandler.instance.AddMessageToPlayerFood(this, npcSnake.SetTargetFood);
+        //if (food != null) npcSnake.snake.food = food;
     }
 }

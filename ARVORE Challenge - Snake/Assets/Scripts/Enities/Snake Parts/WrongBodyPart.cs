@@ -18,11 +18,9 @@ public class WrongBodyPart : SnakeBodyPart
     public override string description { get { return DESCRIPTION; } }
     public static new string DESCRIPTION = "You ate something that wasn't yours and got slower than usual.";
 
-    private static float SPEED_DEBUFF = -0.4f;
-
     private void Start()
     {
-        snake.AddSpeedBuff(SPEED_DEBUFF);
+        snake.AddSpeedBuff(-Snake.WEIGHT_RATIO);
     }
 
 }

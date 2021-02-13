@@ -6,12 +6,6 @@ public class BatteringRamPhaseArea : GridSlot
     private Snake snake1;
     private Snake snake2;
     private GridSlot oldSlot;
-  
-    public override bool hasChanged
-    {
-        get { return oldSlot.hasChanged; }
-        set { oldSlot.hasChanged = value; }
-    }
 
     public override bool hasComflict
     {
@@ -30,17 +24,23 @@ public class BatteringRamPhaseArea : GridSlot
         }
     }
 
-    public BatteringRamPhaseArea(GridSlot slot, Snake snake1, Snake snake2)
+    public BatteringRamPhaseArea(GridSlot slot, SnakeBodyPart part1, SnakeBodyPart part2)
         : base(slot.x, slot.y, slot.isBorder)
     {
-        this.snake1 = snake1;
-        this.snake2 = snake2;
+        snake1 = part1.snake;
+        snake2 = part2.snake;
 
-        //snake2.AddSpeedBuff(-1);
+
+        snake2.AddSpeedBuff(-Snake.WEIGHT_RATIO*3);
 
         oldSlot = slot;
         oldSlot.ClearUsers();
         GridSnake.instance.ExchangeSlots(this);
+        AddUser(part1);
+        AddUser(part2);
+
+        snake1.OnDeath += EndPhaseArea;
+        snake2.OnDeath += EndPhaseArea;
     }
 
 
@@ -60,9 +60,27 @@ public class BatteringRamPhaseArea : GridSlot
 
     private void EndPhaseArea()
     {
-        //snake2.AddSpeedBuff(1);
+
+        snake1.OnDeath -= EndPhaseArea;
+        snake2.OnDeath -= EndPhaseArea;
+        snake2.AddSpeedBuff(Snake.WEIGHT_RATIO * 3);
         GridSnake.instance.ExchangeSlots(oldSlot);
         //Garbage Collector do your thing
     }
-    
+
+
+    public override void SolveConflicts(List<SlotActionTemplate> actions)
+    {
+        /*
+        foreach (Entity e in users)
+        {
+            if (e is SnakeBodyPart)
+            {
+                SnakeBodyPart bp = (SnakeBodyPart)e;
+                if (bp.snake != snake1 || bp.snake != snake2)
+                    e.Contact();
+            }
+        }*/
+        base.SolveConflicts(actions);
+    }
 }

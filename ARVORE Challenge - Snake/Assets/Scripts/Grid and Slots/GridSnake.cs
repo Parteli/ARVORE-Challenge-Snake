@@ -35,8 +35,10 @@ public class GridSnake : MonoBehaviour
 
     #region Monobehaviour
 
-    private void Awake()
+    public void Setup()
     {
+        gameObject.SetActive(true);
+
         actionList = new List<SlotActionTemplate>();
         actionList.AddRange(GetComponentsInChildren<SlotActionTemplate>(true));
 
@@ -96,8 +98,12 @@ public class GridSnake : MonoBehaviour
 
         Transform camera = FindObjectOfType<Camera>().GetComponent<Transform>();
 
+        float far = 0;
+        if (width * 9 >= height * 16) far = width*0.65F;
+        else far = height;
+
         camera.position = transform.position
-                    + new Vector3(width*0.5f, height, height*0.5f);
+                    + new Vector3((width+1)*0.5f, far, (height+1)*0.5f);
     }
 
     public void PlaceOnGrid(Entity entity, Vector2 coordinates)
@@ -179,37 +185,15 @@ public class GridSnake : MonoBehaviour
 
     private void SolveGridConflicts()
     {
-        List<Vector2> cases = FindConflicts();
-
-        foreach (Vector2 coords in cases)
-        {
-            CallActionsOnSlot(GetGridSlot(coords));
-        }
-
-    }
-    private List<Vector2> FindConflicts()
-    {
-        List<Vector2> cases = new List<Vector2>();
-        for(int y = 0; y < slotGrid.Count; y++)
+        for (int y = 0; y < slotGrid.Count; y++)
         {
             for (int x = 0; x < slotGrid[y].Count; x++)
             {
-                GridSlot slot = slotGrid[y][x];
-                if ((slot.isBorder && slot.isInUse) ||
-                    (slot.hasChanged && slot.hasComflict))
-                    cases.Add(new Vector2(x,y) );
+                slotGrid[y][x].SolveConflicts(actionList);
             }
         }
-
-        return cases;
     }
-    public void CallActionsOnSlot(GridSlot slot)
-    {
-        foreach (SlotActionTemplate action in actionList)
-            action.Evaluate(slot);
-    }
-
-
+    
     #endregion
 
     #region Utility
@@ -235,4 +219,5 @@ public class GridSnake : MonoBehaviour
         return GetWorldPositionOfSlot((int)slot.x, (int)slot.y);
     }
     #endregion
+
 }

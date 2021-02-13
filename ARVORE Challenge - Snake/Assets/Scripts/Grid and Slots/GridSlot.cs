@@ -59,4 +59,16 @@ public class GridSlot
         users.Clear();
         hasChanged = false;
     }
+
+    public virtual void SolveConflicts(List<SlotActionTemplate> actions)
+    {
+        //nobody here
+        if (!isInUse) return;
+
+        //only 1 entity in the middle of the map
+        if (!hasComflict && !isBorder) return;
+
+        foreach (SlotActionTemplate action in actions)
+            action.Evaluate(this);
+    }
 }

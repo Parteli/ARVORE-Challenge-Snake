@@ -15,11 +15,11 @@ C:/Users/Murilo/Unity/ARVORE Challenge - Snake
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49234
+57636
 Successfully changed project path to: C:/Users/Murilo/Unity/ARVORE Challenge - Snake
 C:/Users/Murilo/Unity/ARVORE Challenge - Snake
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 105.54 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 65.61 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.0b4 (6d90c0720bd4)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.0b4/Editor/Data/Resources/UnitySubsystems
@@ -37,348 +37,2329 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.0b4/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.0b4/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.0b4/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56412
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56092
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.0b4/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002183 seconds.
+Registered in 0.001783 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 109.13 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 51.64 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.453 seconds
+- Completed reload, in  1.538 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005494 seconds.
+Registered in 0.004298 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.11 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 UnityIAP: [InitializeOnLoad] Facebook Check
 UnityIAP: Runtime [2021.1.0b4]
 UnityIAP: Current Build is Standalone:StandaloneWindows
 UnityIAP: stub FacebookStore.dll disabled
 Mono: successfully reloaded assembly
-- Completed reload, in  7.358 seconds
+- Completed reload, in  1.295 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.46 seconds
 Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1630 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 205.1 MB.
-System memory in use after: 205.1 MB.
+Unloading 1642 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.4 MB.
+System memory in use after: 205.4 MB.
 
-Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 2062.
-Total: 64.274777 ms (FindLiveObjects: 0.245135 ms CreateObjectMapping: 0.081345 ms MarkObjects: 63.860722 ms  DeleteObjects: 0.085376 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Scripts/Grid and Slots/BatteringRamPhaseArea.cs
-  artifactKey: Guid(74fe2189b2e0d164bb6324c4956b2a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Grid and Slots/BatteringRamPhaseArea.cs using Guid(74fe2189b2e0d164bb6324c4956b2a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 1.833160 seconds  code(4) message(Build asset version error: assets/scripts/grid and slots/batteringramphasearea.cs in SourceAssetDB has modification time of '2021-02-06T00:55:35.7155825Z' while content on disk has modification time of '2021-02-06T04:02:03.4253175Z')
-  ERROR: Build asset version error: assets/scripts/grid and slots/batteringramphasearea.cs in SourceAssetDB has modification time of '2021-02-06T00:55:35.7155825Z' while content on disk has modification time of '2021-02-06T04:02:03.4253175Z'
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004922 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.14 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-UnityIAP: [InitializeOnLoad] Facebook Check
-UnityIAP: Runtime [2021.1.0b4]
-UnityIAP: Current Build is Standalone:StandaloneWindows
-UnityIAP: stub FacebookStore.dll disabled
-Mono: successfully reloaded assembly
-- Completed reload, in  6.927 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.65 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1624 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 205.0 MB.
-System memory in use after: 205.1 MB.
-
-Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2064.
-Total: 92.376602 ms (FindLiveObjects: 0.166355 ms CreateObjectMapping: 0.076948 ms MarkObjects: 92.103619 ms  DeleteObjects: 0.027481 ms)
+Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 2074.
+Total: 19.715650 ms (FindLiveObjects: 0.229380 ms CreateObjectMapping: 0.161592 ms MarkObjects: 19.223180 ms  DeleteObjects: 0.099300 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 116.759698 seconds.
-  path: Assets/Scripts/Grid and Slots/BatteringRamPhaseArea.cs
-  artifactKey: Guid(74fe2189b2e0d164bb6324c4956b2a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Grid and Slots/BatteringRamPhaseArea.cs using Guid(74fe2189b2e0d164bb6324c4956b2a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc6e9f8492da4c54489a48f7a1bf397e') in 0.031847 seconds 
+  path: Assets/Scripts/Snakes/Snake.cs
+  artifactKey: Guid(db8eb9deca7628141aae94af169e076f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/Snake.cs using Guid(db8eb9deca7628141aae94af169e076f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '000833453c0e33657d7c94ca5437489e') in 2.263933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015512 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2634ea8b6f20ba7c4c0812f29476cc40') in 0.003146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 84.844747 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9c85ed17389b203ef4ca4d901b35d39') in 0.006486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.407562 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50c2a650a4ee25d08e19a25f5af9396e') in 0.004398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2485.334564 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb754daeef724b8ad8d8cc46f5d39567') in 0.006140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 65.399033 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac4de95219bfb5a18b655b2cdce3b083') in 0.004047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 110.441457 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7127fa7d469f3c0ef354cb59a13100e6') in 0.005554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.160033 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b1d3e5d28432a284e1308c9b1141fbf') in 0.005857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 68.482650 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '852d9361c5a9023556f4eaab28f5532c') in 0.010440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 58.085020 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '977168aab61776d8d9e8c05a4230f8fb') in 0.008106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 405.316551 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c9c206efa8898b335ebc1bd34b0c6f7') in 0.004468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 67.220730 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec1b4e8412f9b45f1a9da1e7ae5058a9') in 0.005356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.829335 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '146dddeaca536fa9cb66d92a25368187') in 0.005407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 72.282897 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bb5441229dbc8669729d67cc3cfb232') in 0.006660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 215.064340 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1b46322829d925cb58eed62933a413f') in 0.006250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 97.826219 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12607f72f11a6ddcc2a013f0e9c085de') in 0.007941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 70.884673 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61c7b18532e8ccafa6083c764f505733') in 0.004837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 48.573274 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '123cad56f8ebb2bb60e53628779ebaa4') in 0.004039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.962967 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50951e8d8600d5ce5fcdc86ec6c9511d') in 0.004404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.789738 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1abbc011e84d49660b33b5e9673b019') in 0.004503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 134.721690 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07ef0539567cf604049ae887fb44daf2') in 0.007209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.223086 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bea1fe0116d63a6c724e848a3e44994c') in 0.004800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 92.350783 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c43fa5fa4a341eadccb0b3f8d31fb797') in 0.004888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 60.965336 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fb8b986db4b1679547c7835bed7f9ba') in 0.008506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 59.810013 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d01bc8709e1e2a39636872c78bb18fd') in 0.004480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.951957 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bbc6e939334cacad7750e2726566a43') in 0.005008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 408.823409 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74fe8ab30c764a6375dc7ac6efd0bd47') in 0.005857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.368062 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9828a6252d57aa2b4686e27ba0dbe4b7') in 0.004136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.932908 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b9384fd28d12918a0148a686d8adc1b') in 0.004506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 56.496136 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08c710180c828d19ffcd889bc398c516') in 0.008738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 113.928386 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c6f35d2a0b4e9f3d9b78fbc46c89601') in 0.010534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.012424 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83b5b45f7e59033ade1914ae9070e521') in 0.004607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 84.396542 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c26376688a1b302b3a05146d7fd7bdec') in 0.009023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 185.658556 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '430d37743620f293ed83413422f1d13f') in 0.007968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.187539 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd17fe047f8d20542df2ef66bdd026885') in 0.004656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.661988 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '651cf16a4de0e85afbfc51c9e71f5633') in 0.004371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 190.556310 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e746e281ca695f8ad3331baf4da3b1c') in 0.009919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 105.398942 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e18ba6a4a983fcf2e6c69c477c6a6d5') in 0.005234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.506733 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '338a82db2a9f05f5dec72f376bacfbc0') in 0.004875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.094859 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38378319a0d0963083946ed374e008d6') in 0.003567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.849174 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2cc8b80e822566b35c0aa7631cfde8a') in 0.004883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 682.847440 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4bf06b94037443852dc8f09dfc39a2d') in 0.005306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 276.754528 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db1e818d64ee9ea8797d4ff428f60208') in 0.012230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 76.991543 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81210e60cf8433c5f800c0671b1b9108') in 0.007933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.366528 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f320853adad1b2f1a4251194e64eb209') in 0.008045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 66.957829 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64e9ded14d8a4caaa0051bb9f5b6e2df') in 0.005043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2158.890558 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5de368b8f17dee7d01af0473386f2c19') in 0.005601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 70.907831 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd642773c77881b4d13bbba4eff635b68') in 0.005433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 56.728135 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '553c0383edfb61967c7153735d4ea178') in 0.007236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 167.135318 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5339231e9268aee6867cdb5284391ae7') in 0.007463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.802047 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8221ffb7210728dd6cb0235089aa06ee') in 0.007389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 133.028661 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '118234a9bdd4245524f512c4f043f76b') in 0.007659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.984391 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '732ada632ac5c903217e6e5b57096cdf') in 0.005469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.235314 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1096546274ecbbba4d97247169e2dec3') in 0.005761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 89.715945 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '888145097e04dc8c94825e91f0b8d2bd') in 0.006161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 61.145954 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fce2e252117576b8e3450b3965616b2f') in 0.013082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.596679 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0283d2cae014e2413589195993e48649') in 0.007830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 68.231759 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '632277a77fdc3dead4f5b6aefc873e67') in 0.005290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 150.205804 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b3ee67daf184fddae6f72274dacc802') in 0.007166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.539510 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c7605e00ecff0e9753b6d97775e0cb6') in 0.008819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 361.397200 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24f55d2419d8bd350b6807ca6b3a22a7') in 0.007583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.524711 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae9274528d8581eadf30cffc9d2f1fb6') in 0.004639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.041270 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04a068711a8ef88ed8a66d58c0d60124') in 0.004289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 69.736151 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d6ba477cded4889764aa2cf127d2e10') in 0.007927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.160474 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75091116665bb3411619bfd41da1cccc') in 0.007072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 137.176497 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '462b4056033d4d07110834033c4fbdfd') in 0.013078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.296181 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efa1f082ef8b6f3c6711eab372872397') in 0.006381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 347.226564 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83f57bc0ef0a654dc5a1f0c67c5f8fa4') in 0.009257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.648840 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f676c1a3674d47f94bb5c0f0b79168a7') in 0.011957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 57.559067 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76c65001f7969e9f0887de41f8e4af10') in 0.004799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.184891 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12c817c44f8d8473b37c020bff5b0f5b') in 0.005049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 120.702369 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b9f1cec849e43ce946927566308fa93') in 0.006585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.786979 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28a04b5be31ec504157f8e57592bc761') in 0.010925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.446214 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '403e969a895d9d57e0d14a886f15068c') in 0.006728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.719834 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49015cc3cd92a5226eccddf1217080e0') in 0.008660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 114.308857 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8413f6602d6f61b038537ea83165e3b') in 0.007767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 173.350354 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3ebf2c82c69e1691f1073c5d77c5961') in 0.007650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 314.433451 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d1f1fd529f4bd7926e12af2c73cd143') in 0.022002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.047602 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cec6343401197f6a04ecaa9304219ea7') in 0.009785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.109734 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b50c5bbf138e494d39f7531347772cd') in 0.004245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.887329 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4984967976486abc2e732c04eabf7321') in 0.006300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 138.340094 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95c2775a764cc81dd7efbb69363ca1d7') in 0.004862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 139.951905 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2c14a95c83d402a48c684eea3d8ed04') in 0.008436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 251.329127 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d18175352c2e8ca915d9d9899bebd3b') in 0.004766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 58.551226 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c00bec0f9db6f1e65ca852f1bb1bc74f') in 0.004851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.449497 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8de9acd865f2a6368ce765ce88db440') in 0.003933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.146713 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff9592cf8a74b911d874ac578c4cbeda') in 0.004123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.735529 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a8f5f577b1cac52ada96ff407259d72') in 0.006293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 129.748745 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b3ef0e1e5986bbf1a8de983302e7fdb') in 0.005127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.079577 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a329528b2e48ab9edd681c17d82fd45c') in 0.003309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 49.026244 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a1a388e90b53e5675eae4d6b9114038') in 0.005619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.496524 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c56c1111275ed4dad3790e169c9ed406') in 0.006370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 114.810417 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ef44903b3696ba9039ff4a74aaf7871') in 0.003670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 154.127715 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '795953bc9cd1f5e9f87096e970a28293') in 0.004574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 48.159148 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc563f583b6474bab4381fec4f28836e') in 0.004725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 67.158764 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63fe0e601241e3a65fda72a1e079b25e') in 0.006313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 75.611698 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '069a9c514f3f03aa7afcfb2b77d4f573') in 0.004512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 73.071218 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53dcee9167febd52a4da68fcca7df69e') in 0.004622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.880453 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc89093f6970399ace88bcdb7b90978a') in 0.004035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.645233 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a74e606680872f18e7eb1e62a3aa1e4d') in 0.006364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 104.483981 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28d56d4e21398009dd2e8150e58a04bf') in 0.007360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.309579 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52d8b2a90a57b7d6c8865fe7926649c8') in 0.008683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 129.240469 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78e35910bfb1e6271838cb0265eed9f9') in 0.006372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.121320 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48d04c3b95a6758f135dfb5b049a81a1') in 0.005970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 40.798522 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb097ba2f0d43ac89067530202ea086e') in 0.007724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.390975 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab8700664cba027001a6dc44e9ba61a8') in 0.004786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 73.136087 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74c5a82841ce73677112a44c1961b732') in 0.005582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.252754 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '663d2a0ae5ece0bf47cecc02bdc16a62') in 0.004422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 47.415119 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28330f09249f4201e826fef3cbfb11dc') in 0.003947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 142.166414 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '955d43a23a3a7749fc72823a955b8510') in 0.004643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.844515 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1db79ce6f38b93bab42e1ddf10632188') in 0.003708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 68.077982 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff1dd96e13d49105f446777c3fd0ae0f') in 0.004795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 53.139499 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bc303bcda5d13e5fdd8e7e7d4b197a1') in 0.004800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.660214 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdb1efc1e3846b42627fd56ecaa24f8b') in 0.004024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 55.991287 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25ebe3c95aa41f2e90529be706e5a40b') in 0.005061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.704624 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50dde3290c732296544409d638e50e70') in 0.005017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.065823 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4368a5626e86a796c7d06661b2ee707') in 0.004732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 71.531175 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e011430cf4f7def4812db8f1bb47dd9') in 0.004227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.401542 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1145c3e003ee48b2f5939585d30dd53c') in 0.004044 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005107 seconds.
+Registered in 0.153149 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.14 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 UnityIAP: [InitializeOnLoad] Facebook Check
 UnityIAP: Runtime [2021.1.0b4]
 UnityIAP: Current Build is Standalone:StandaloneWindows
 UnityIAP: stub FacebookStore.dll disabled
 Mono: successfully reloaded assembly
-- Completed reload, in  6.937 seconds
+- Completed reload, in  1.397 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.72 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1624 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 205.0 MB.
-System memory in use after: 205.2 MB.
-
-Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2066.
-Total: 33.481965 ms (FindLiveObjects: 0.165622 ms CreateObjectMapping: 0.076215 ms MarkObjects: 33.195425 ms  DeleteObjects: 0.042871 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005282 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.12 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-UnityIAP: [InitializeOnLoad] Facebook Check
-UnityIAP: Runtime [2021.1.0b4]
-UnityIAP: Current Build is Standalone:StandaloneWindows
-UnityIAP: stub FacebookStore.dll disabled
-Mono: successfully reloaded assembly
-- Completed reload, in  6.950 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 13.71 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1624 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 205.1 MB.
-System memory in use after: 205.2 MB.
-
-Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2068.
-Total: 38.567138 ms (FindLiveObjects: 0.168919 ms CreateObjectMapping: 0.077681 ms MarkObjects: 38.288659 ms  DeleteObjects: 0.030046 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005497 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.15 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-UnityIAP: [InitializeOnLoad] Facebook Check
-UnityIAP: Runtime [2021.1.0b4]
-UnityIAP: Current Build is Standalone:StandaloneWindows
-UnityIAP: stub FacebookStore.dll disabled
-Mono: successfully reloaded assembly
-- Completed reload, in  6.910 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 22.54 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1624 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 205.1 MB.
-System memory in use after: 205.2 MB.
-
-Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2070.
-Total: 51.330268 ms (FindLiveObjects: 0.169652 ms CreateObjectMapping: 0.077681 ms MarkObjects: 51.049224 ms  DeleteObjects: 0.031879 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005722 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.28 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-UnityIAP: [InitializeOnLoad] Facebook Check
-UnityIAP: Runtime [2021.1.0b4]
-UnityIAP: Current Build is Standalone:StandaloneWindows
-UnityIAP: stub FacebookStore.dll disabled
-Mono: successfully reloaded assembly
-- Completed reload, in  6.913 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.62 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1624 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 205.1 MB.
-System memory in use after: 205.2 MB.
-
-Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2072.
-Total: 267.630008 ms (FindLiveObjects: 0.169652 ms CreateObjectMapping: 0.080612 ms MarkObjects: 267.348232 ms  DeleteObjects: 0.029314 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004972 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.19 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-UnityIAP: [InitializeOnLoad] Facebook Check
-UnityIAP: Runtime [2021.1.0b4]
-UnityIAP: Current Build is Standalone:StandaloneWindows
-UnityIAP: stub FacebookStore.dll disabled
-Mono: successfully reloaded assembly
-- Completed reload, in  6.858 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.69 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1624 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 205.1 MB.
-System memory in use after: 205.2 MB.
-
-Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2074.
-Total: 201.770100 ms (FindLiveObjects: 0.166721 ms CreateObjectMapping: 0.076948 ms MarkObjects: 201.486491 ms  DeleteObjects: 0.037741 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005045 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.15 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-UnityIAP: [InitializeOnLoad] Facebook Check
-UnityIAP: Runtime [2021.1.0b4]
-UnityIAP: Current Build is Standalone:StandaloneWindows
-UnityIAP: stub FacebookStore.dll disabled
-Mono: successfully reloaded assembly
-- Completed reload, in  6.894 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 7.38 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1624 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 205.1 MB.
-System memory in use after: 205.2 MB.
+Unloading 1636 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.4 MB.
+System memory in use after: 205.5 MB.
 
 Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2076.
-Total: 36.914585 ms (FindLiveObjects: 0.174782 ms CreateObjectMapping: 0.077681 ms MarkObjects: 36.616686 ms  DeleteObjects: 0.043238 ms)
+Total: 7.327321 ms (FindLiveObjects: 0.277747 ms CreateObjectMapping: 0.157195 ms MarkObjects: 6.846211 ms  DeleteObjects: 0.044703 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005161 seconds.
+Registered in 0.004286 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.24 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 UnityIAP: [InitializeOnLoad] Facebook Check
 UnityIAP: Runtime [2021.1.0b4]
 UnityIAP: Current Build is Standalone:StandaloneWindows
 UnityIAP: stub FacebookStore.dll disabled
 Mono: successfully reloaded assembly
-- Completed reload, in  6.919 seconds
+- Completed reload, in  1.268 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 8.99 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1624 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 205.1 MB.
-System memory in use after: 205.2 MB.
+Unloading 1636 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.4 MB.
+System memory in use after: 205.5 MB.
 
 Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2078.
-Total: 19.967674 ms (FindLiveObjects: 0.167820 ms CreateObjectMapping: 0.077681 ms MarkObjects: 19.686264 ms  DeleteObjects: 0.033711 ms)
+Total: 25.859065 ms (FindLiveObjects: 0.240006 ms CreateObjectMapping: 0.159760 ms MarkObjects: 25.424123 ms  DeleteObjects: 0.032611 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004822 seconds.
+Registered in 0.005116 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.09 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 UnityIAP: [InitializeOnLoad] Facebook Check
 UnityIAP: Runtime [2021.1.0b4]
 UnityIAP: Current Build is Standalone:StandaloneWindows
 UnityIAP: stub FacebookStore.dll disabled
 Mono: successfully reloaded assembly
-- Completed reload, in  6.740 seconds
+- Completed reload, in  1.317 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.82 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1624 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 205.1 MB.
-System memory in use after: 205.2 MB.
+Unloading 1636 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.4 MB.
+System memory in use after: 205.5 MB.
 
 Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2080.
-Total: 21.920691 ms (FindLiveObjects: 0.165255 ms CreateObjectMapping: 0.077681 ms MarkObjects: 21.646976 ms  DeleteObjects: 0.028581 ms)
+Total: 18.803994 ms (FindLiveObjects: 0.346634 ms CreateObjectMapping: 0.082445 ms MarkObjects: 18.342304 ms  DeleteObjects: 0.030413 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 843.632085 seconds.
-  path: Assets/Scripts/FoodHandler.cs
-  artifactKey: Guid(ba76c9708edc7a24c96a198f44b97e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FoodHandler.cs using Guid(ba76c9708edc7a24c96a198f44b97e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57869483cf6db1d95e42dc1fd17112ee') in 0.013519 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.995261 seconds.
-  path: Assets/Scripts/PlayerTag.cs
-  artifactKey: Guid(78659c3ea76e00b418ee0cfb1dc4ef1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerTag.cs using Guid(78659c3ea76e00b418ee0cfb1dc4ef1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86434d86e95a985d41e6e2edb6ad5ab3') in 0.005035 seconds 
+  Time since last request: 370.884350 seconds.
+  path: Assets/Scripts/Snakes/NpcControlSnake.cs
+  artifactKey: Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Snakes/NpcControlSnake.cs using Guid(ffcfed6fe9593b14cad43fe55ca197f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea6c6186cdac0418760278920aad31f7') in 0.012649 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005655 seconds.
+Registered in 0.003928 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.11 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 UnityIAP: [InitializeOnLoad] Facebook Check
 UnityIAP: Runtime [2021.1.0b4]
 UnityIAP: Current Build is Standalone:StandaloneWindows
 UnityIAP: stub FacebookStore.dll disabled
 Mono: successfully reloaded assembly
-- Completed reload, in  6.925 seconds
+- Completed reload, in  1.299 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.27 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.82 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1624 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 205.1 MB.
-System memory in use after: 205.2 MB.
+Unloading 1636 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.4 MB.
+System memory in use after: 205.5 MB.
 
 Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2082.
-Total: 198.020528 ms (FindLiveObjects: 0.249898 ms CreateObjectMapping: 0.138507 ms MarkObjects: 197.581923 ms  DeleteObjects: 0.048001 ms)
+Total: 11.432336 ms (FindLiveObjects: 0.221318 ms CreateObjectMapping: 0.153164 ms MarkObjects: 11.021212 ms  DeleteObjects: 0.034077 ms)
 
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 53.63 ms, found 0 plugins.
+Registering precompiled user dll's ...
+Registered in 0.004310 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 173.5 MB.
-System memory in use after: 173.6 MB.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.337 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1636 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.4 MB.
+System memory in use after: 205.5 MB.
 
-Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2082.
-Total: 11.295253 ms (FindLiveObjects: 0.168919 ms CreateObjectMapping: 0.078414 ms MarkObjects: 11.018973 ms  DeleteObjects: 0.026749 ms)
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2084.
+Total: 19.043267 ms (FindLiveObjects: 0.223883 ms CreateObjectMapping: 0.159027 ms MarkObjects: 18.621883 ms  DeleteObjects: 0.035176 ms)
 
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 27.40 ms, found 0 plugins.
+Registering precompiled user dll's ...
+Registered in 0.004558 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 173.5 MB.
-System memory in use after: 173.6 MB.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.342 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1636 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.4 MB.
+System memory in use after: 205.5 MB.
 
-Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2082.
-Total: 30.136187 ms (FindLiveObjects: 0.185775 ms CreateObjectMapping: 0.077315 ms MarkObjects: 29.844151 ms  DeleteObjects: 0.026382 ms)
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2086.
+Total: 14.859472 ms (FindLiveObjects: 0.221318 ms CreateObjectMapping: 0.159393 ms MarkObjects: 14.427828 ms  DeleteObjects: 0.047635 ms)
 
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 23.94 ms, found 0 plugins.
+Registering precompiled user dll's ...
+Registered in 0.004039 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 173.5 MB.
-System memory in use after: 173.6 MB.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.328 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1636 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.4 MB.
+System memory in use after: 205.5 MB.
 
-Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2082.
-Total: 27.049101 ms (FindLiveObjects: 0.181744 ms CreateObjectMapping: 0.076582 ms MarkObjects: 26.747172 ms  DeleteObjects: 0.041039 ms)
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2088.
+Total: 7.536548 ms (FindLiveObjects: 0.174416 ms CreateObjectMapping: 0.079880 ms MarkObjects: 7.245243 ms  DeleteObjects: 0.034444 ms)
 
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 28.57 ms, found 0 plugins.
+Registering precompiled user dll's ...
+Registered in 0.004228 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.290 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1636 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.4 MB.
+System memory in use after: 205.6 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2090.
+Total: 17.429183 ms (FindLiveObjects: 0.231578 ms CreateObjectMapping: 0.164889 ms MarkObjects: 16.997172 ms  DeleteObjects: 0.032245 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004496 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.325 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1636 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.4 MB.
+System memory in use after: 205.6 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2092.
+Total: 7.473523 ms (FindLiveObjects: 0.211059 ms CreateObjectMapping: 0.104064 ms MarkObjects: 7.097209 ms  DeleteObjects: 0.057895 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004659 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.277 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.94 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1636 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.5 MB.
+System memory in use after: 205.6 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2094.
+Total: 17.921653 ms (FindLiveObjects: 0.226082 ms CreateObjectMapping: 0.157195 ms MarkObjects: 17.491108 ms  DeleteObjects: 0.043971 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004480 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.318 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1636 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.5 MB.
+System memory in use after: 205.6 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2096.
+Total: 7.809898 ms (FindLiveObjects: 0.227547 ms CreateObjectMapping: 0.168920 ms MarkObjects: 7.381185 ms  DeleteObjects: 0.030047 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004090 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.311 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1636 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.5 MB.
+System memory in use after: 205.6 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2098.
+Total: 8.384080 ms (FindLiveObjects: 0.227181 ms CreateObjectMapping: 0.164523 ms MarkObjects: 7.955367 ms  DeleteObjects: 0.033344 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004216 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.312 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1636 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.5 MB.
+System memory in use after: 205.6 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2100.
+Total: 21.475204 ms (FindLiveObjects: 0.234509 ms CreateObjectMapping: 0.168187 ms MarkObjects: 21.035132 ms  DeleteObjects: 0.034810 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004089 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.249 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1636 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.5 MB.
+System memory in use after: 205.6 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2102.
+Total: 17.843605 ms (FindLiveObjects: 0.218021 ms CreateObjectMapping: 0.156828 ms MarkObjects: 17.433946 ms  DeleteObjects: 0.032611 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004064 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.346 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.71 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1636 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.5 MB.
+System memory in use after: 205.6 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2104.
+Total: 43.941943 ms (FindLiveObjects: 0.233777 ms CreateObjectMapping: 0.164889 ms MarkObjects: 43.508833 ms  DeleteObjects: 0.031879 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004307 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.251 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.79 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1636 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.5 MB.
+System memory in use after: 205.6 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2106.
+Total: 8.218824 ms (FindLiveObjects: 0.238907 ms CreateObjectMapping: 0.163424 ms MarkObjects: 7.778386 ms  DeleteObjects: 0.035909 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004085 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.306 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.90 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1636 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.5 MB.
+System memory in use after: 205.6 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2108.
+Total: 12.279502 ms (FindLiveObjects: 0.257960 ms CreateObjectMapping: 0.103331 ms MarkObjects: 11.884133 ms  DeleteObjects: 0.031512 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004400 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.246 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.71 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1636 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.5 MB.
+System memory in use after: 205.6 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2110.
+Total: 11.560950 ms (FindLiveObjects: 0.240739 ms CreateObjectMapping: 0.168187 ms MarkObjects: 11.117580 ms  DeleteObjects: 0.031146 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004445 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.341 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1636 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.5 MB.
+System memory in use after: 205.6 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2112.
+Total: 8.930047 ms (FindLiveObjects: 0.244403 ms CreateObjectMapping: 0.173684 ms MarkObjects: 8.479715 ms  DeleteObjects: 0.029680 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004424 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.276 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1636 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.5 MB.
+System memory in use after: 205.6 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2114.
+Total: 12.033999 ms (FindLiveObjects: 0.226082 ms CreateObjectMapping: 0.113591 ms MarkObjects: 11.658418 ms  DeleteObjects: 0.033344 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004207 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.316 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1636 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.5 MB.
+System memory in use after: 205.6 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2116.
+Total: 8.016559 ms (FindLiveObjects: 0.181378 ms CreateObjectMapping: 0.082078 ms MarkObjects: 7.708033 ms  DeleteObjects: 0.042871 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004264 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.245 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.75 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1636 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.5 MB.
+System memory in use after: 205.6 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2118.
+Total: 13.668237 ms (FindLiveObjects: 0.240739 ms CreateObjectMapping: 0.147668 ms MarkObjects: 13.245754 ms  DeleteObjects: 0.031512 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004837 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.325 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1636 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.5 MB.
+System memory in use after: 205.7 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2120.
+Total: 7.395842 ms (FindLiveObjects: 0.181745 ms CreateObjectMapping: 0.081345 ms MarkObjects: 7.085850 ms  DeleteObjects: 0.044337 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004204 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.271 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1636 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.5 MB.
+System memory in use after: 205.7 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2122.
+Total: 58.686359 ms (FindLiveObjects: 0.265289 ms CreateObjectMapping: 0.174783 ms MarkObjects: 58.214775 ms  DeleteObjects: 0.029314 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004031 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.318 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1636 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.6 MB.
+System memory in use after: 205.7 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2124.
+Total: 8.153601 ms (FindLiveObjects: 0.227547 ms CreateObjectMapping: 0.149500 ms MarkObjects: 7.738446 ms  DeleteObjects: 0.035909 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004239 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.303 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1636 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.6 MB.
+System memory in use after: 205.7 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2126.
+Total: 8.378950 ms (FindLiveObjects: 0.247334 ms CreateObjectMapping: 0.159760 ms MarkObjects: 7.935214 ms  DeleteObjects: 0.033711 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004143 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.288 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1636 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.6 MB.
+System memory in use after: 205.7 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2128.
+Total: 10.554025 ms (FindLiveObjects: 0.240006 ms CreateObjectMapping: 0.154263 ms MarkObjects: 10.125679 ms  DeleteObjects: 0.031146 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004118 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.261 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.77 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1636 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.6 MB.
+System memory in use after: 205.7 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2130.
+Total: 17.466924 ms (FindLiveObjects: 0.207761 ms CreateObjectMapping: 0.106262 ms MarkObjects: 17.116626 ms  DeleteObjects: 0.033344 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004107 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.313 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1636 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.6 MB.
+System memory in use after: 205.7 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2132.
+Total: 22.002117 ms (FindLiveObjects: 0.241471 ms CreateObjectMapping: 0.160492 ms MarkObjects: 21.549587 ms  DeleteObjects: 0.047268 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004412 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.300 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1636 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.6 MB.
+System memory in use after: 205.7 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2134.
+Total: 11.551789 ms (FindLiveObjects: 0.238907 ms CreateObjectMapping: 0.159393 ms MarkObjects: 11.116848 ms  DeleteObjects: 0.034077 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004139 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.315 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1636 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.6 MB.
+System memory in use after: 205.7 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2136.
+Total: 9.156129 ms (FindLiveObjects: 0.242937 ms CreateObjectMapping: 0.158660 ms MarkObjects: 8.706164 ms  DeleteObjects: 0.045803 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004109 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.282 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1636 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.6 MB.
+System memory in use after: 205.7 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2138.
+Total: 32.970564 ms (FindLiveObjects: 0.189073 ms CreateObjectMapping: 0.080613 ms MarkObjects: 32.663137 ms  DeleteObjects: 0.033711 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003899 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.287 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1636 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.6 MB.
+System memory in use after: 205.7 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2140.
+Total: 7.454836 ms (FindLiveObjects: 0.195669 ms CreateObjectMapping: 0.084643 ms MarkObjects: 7.143012 ms  DeleteObjects: 0.029680 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004159 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.343 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1636 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.6 MB.
+System memory in use after: 205.7 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2142.
+Total: 8.636910 ms (FindLiveObjects: 0.235975 ms CreateObjectMapping: 0.155363 ms MarkObjects: 8.207831 ms  DeleteObjects: 0.035176 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004538 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.267 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1636 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.6 MB.
+System memory in use after: 205.7 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2144.
+Total: 7.865227 ms (FindLiveObjects: 0.185043 ms CreateObjectMapping: 0.082445 ms MarkObjects: 7.552670 ms  DeleteObjects: 0.042871 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004128 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.306 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1636 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.6 MB.
+System memory in use after: 205.7 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2146.
+Total: 34.007536 ms (FindLiveObjects: 0.253197 ms CreateObjectMapping: 0.166355 ms MarkObjects: 33.552807 ms  DeleteObjects: 0.032978 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004117 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.329 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1636 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.6 MB.
+System memory in use after: 205.7 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2148.
+Total: 20.841662 ms (FindLiveObjects: 0.350665 ms CreateObjectMapping: 0.119087 ms MarkObjects: 20.335268 ms  DeleteObjects: 0.032978 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003984 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.318 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1636 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.6 MB.
+System memory in use after: 205.7 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2150.
+Total: 8.273420 ms (FindLiveObjects: 0.242937 ms CreateObjectMapping: 0.218021 ms MarkObjects: 7.776920 ms  DeleteObjects: 0.033344 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004131 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.281 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.71 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1636 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.6 MB.
+System memory in use after: 205.7 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2152.
+Total: 58.148086 ms (FindLiveObjects: 0.240739 ms CreateObjectMapping: 0.147668 ms MarkObjects: 57.679800 ms  DeleteObjects: 0.077315 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004039 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.307 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.96 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1636 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.6 MB.
+System memory in use after: 205.7 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2154.
+Total: 7.819425 ms (FindLiveObjects: 0.237441 ms CreateObjectMapping: 0.186875 ms MarkObjects: 7.358101 ms  DeleteObjects: 0.032978 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004046 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.275 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1636 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.6 MB.
+System memory in use after: 205.8 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2156.
+Total: 29.755220 ms (FindLiveObjects: 0.244036 ms CreateObjectMapping: 0.163424 ms MarkObjects: 29.312583 ms  DeleteObjects: 0.032245 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004109 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.289 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1636 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.7 MB.
+System memory in use after: 205.8 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2158.
+Total: 26.668855 ms (FindLiveObjects: 0.246235 ms CreateObjectMapping: 0.163424 ms MarkObjects: 26.221455 ms  DeleteObjects: 0.034077 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003956 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.276 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.78 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1636 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.7 MB.
+System memory in use after: 205.8 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2160.
+Total: 33.402941 ms (FindLiveObjects: 0.241105 ms CreateObjectMapping: 0.154996 ms MarkObjects: 32.970198 ms  DeleteObjects: 0.033711 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004375 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.321 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1636 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.7 MB.
+System memory in use after: 205.8 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2162.
+Total: 59.600579 ms (FindLiveObjects: 0.252098 ms CreateObjectMapping: 0.172218 ms MarkObjects: 59.135957 ms  DeleteObjects: 0.037375 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004154 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.314 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1636 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.7 MB.
+System memory in use after: 205.8 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2164.
+Total: 12.876035 ms (FindLiveObjects: 0.240739 ms CreateObjectMapping: 0.156095 ms MarkObjects: 12.441093 ms  DeleteObjects: 0.035909 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004221 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.288 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1636 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.7 MB.
+System memory in use after: 205.8 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2166.
+Total: 9.104830 ms (FindLiveObjects: 0.258693 ms CreateObjectMapping: 0.160859 ms MarkObjects: 8.647903 ms  DeleteObjects: 0.034077 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004178 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.313 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1636 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.7 MB.
+System memory in use after: 205.8 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2168.
+Total: 38.604654 ms (FindLiveObjects: 0.257228 ms CreateObjectMapping: 0.161592 ms MarkObjects: 38.151391 ms  DeleteObjects: 0.031512 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004300 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.290 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1636 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.7 MB.
+System memory in use after: 205.8 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2170.
+Total: 12.380267 ms (FindLiveObjects: 0.253930 ms CreateObjectMapping: 0.172218 ms MarkObjects: 11.916745 ms  DeleteObjects: 0.034077 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005623 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.318 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1636 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.7 MB.
+System memory in use after: 205.8 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2172.
+Total: 8.561427 ms (FindLiveObjects: 0.242204 ms CreateObjectMapping: 0.162325 ms MarkObjects: 8.111829 ms  DeleteObjects: 0.041772 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004194 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.341 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1636 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.7 MB.
+System memory in use after: 205.8 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2174.
+Total: 8.892306 ms (FindLiveObjects: 0.237074 ms CreateObjectMapping: 0.146935 ms MarkObjects: 8.472387 ms  DeleteObjects: 0.032611 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003812 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.494 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1636 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.7 MB.
+System memory in use after: 205.8 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2176.
+Total: 9.064890 ms (FindLiveObjects: 0.302297 ms CreateObjectMapping: 0.190905 ms MarkObjects: 8.536877 ms  DeleteObjects: 0.032611 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004597 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.321 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1636 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.7 MB.
+System memory in use after: 205.8 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2178.
+Total: 42.493847 ms (FindLiveObjects: 0.240739 ms CreateObjectMapping: 0.160126 ms MarkObjects: 42.058539 ms  DeleteObjects: 0.031879 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004600 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.325 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.79 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1636 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.7 MB.
+System memory in use after: 205.8 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2180.
+Total: 7.378620 ms (FindLiveObjects: 0.226448 ms CreateObjectMapping: 0.122385 ms MarkObjects: 6.997176 ms  DeleteObjects: 0.029680 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004028 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.267 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1636 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.7 MB.
+System memory in use after: 205.8 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2182.
+Total: 22.398218 ms (FindLiveObjects: 0.268953 ms CreateObjectMapping: 0.164157 ms MarkObjects: 21.926634 ms  DeleteObjects: 0.035543 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004072 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.329 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1636 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.7 MB.
+System memory in use after: 205.8 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2184.
+Total: 8.015460 ms (FindLiveObjects: 0.249899 ms CreateObjectMapping: 0.149133 ms MarkObjects: 7.576854 ms  DeleteObjects: 0.035176 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004139 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.318 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1636 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.7 MB.
+System memory in use after: 205.8 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2186.
+Total: 45.022518 ms (FindLiveObjects: 0.252098 ms CreateObjectMapping: 0.165989 ms MarkObjects: 44.565591 ms  DeleteObjects: 0.036276 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004431 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.302 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.94 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1636 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.7 MB.
+System memory in use after: 205.8 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2188.
+Total: 44.369190 ms (FindLiveObjects: 0.197501 ms CreateObjectMapping: 0.087575 ms MarkObjects: 44.047472 ms  DeleteObjects: 0.033344 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004086 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.347 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.77 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1636 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.7 MB.
+System memory in use after: 205.8 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2190.
+Total: 8.211862 ms (FindLiveObjects: 0.234143 ms CreateObjectMapping: 0.161225 ms MarkObjects: 7.781683 ms  DeleteObjects: 0.032245 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004128 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.275 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.79 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1636 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.7 MB.
+System memory in use after: 205.9 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2192.
+Total: 8.644971 ms (FindLiveObjects: 0.233777 ms CreateObjectMapping: 0.137408 ms MarkObjects: 8.237145 ms  DeleteObjects: 0.033711 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005483 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.320 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1636 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.8 MB.
+System memory in use after: 205.9 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2194.
+Total: 22.294521 ms (FindLiveObjects: 0.262724 ms CreateObjectMapping: 0.174050 ms MarkObjects: 21.820739 ms  DeleteObjects: 0.034444 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004130 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.269 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1636 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.8 MB.
+System memory in use after: 205.9 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2196.
+Total: 61.528320 ms (FindLiveObjects: 0.263457 ms CreateObjectMapping: 0.166355 ms MarkObjects: 61.061133 ms  DeleteObjects: 0.034444 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004524 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.340 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1636 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.8 MB.
+System memory in use after: 205.9 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2198.
+Total: 9.703928 ms (FindLiveObjects: 0.201898 ms CreateObjectMapping: 0.080613 ms MarkObjects: 9.385142 ms  DeleteObjects: 0.033711 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004159 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.370 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1636 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.8 MB.
+System memory in use after: 205.9 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2200.
+Total: 8.311895 ms (FindLiveObjects: 0.239639 ms CreateObjectMapping: 0.155729 ms MarkObjects: 7.876220 ms  DeleteObjects: 0.037741 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004077 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.252 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1636 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.8 MB.
+System memory in use after: 205.9 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2202.
+Total: 16.202772 ms (FindLiveObjects: 0.641970 ms CreateObjectMapping: 0.193104 ms MarkObjects: 15.331056 ms  DeleteObjects: 0.033344 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004245 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+UnityIAP: [InitializeOnLoad] Facebook Check
+UnityIAP: Runtime [2021.1.0b4]
+UnityIAP: Current Build is Standalone:StandaloneWindows
+UnityIAP: stub FacebookStore.dll disabled
+Mono: successfully reloaded assembly
+- Completed reload, in  1.516 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1636 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 205.8 MB.
+System memory in use after: 205.9 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2204.
+Total: 13.455713 ms (FindLiveObjects: 0.237441 ms CreateObjectMapping: 0.154996 ms MarkObjects: 13.029565 ms  DeleteObjects: 0.031146 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 25.11 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 173.5 MB.
-System memory in use after: 173.6 MB.
+System memory in use before: 173.9 MB.
+System memory in use after: 174.0 MB.
 
-Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2082.
-Total: 39.244648 ms (FindLiveObjects: 0.185042 ms CreateObjectMapping: 0.077681 ms MarkObjects: 38.939054 ms  DeleteObjects: 0.040673 ms)
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2204.
+Total: 8.179617 ms (FindLiveObjects: 0.266755 ms CreateObjectMapping: 0.158660 ms MarkObjects: 7.719758 ms  DeleteObjects: 0.031512 ms)
 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ReversePart : SnakeBodyPart
+public class ReversePart : HeadPowerPart
 {
     //I need to find a better way to do this...
     //I should use custom DATA
